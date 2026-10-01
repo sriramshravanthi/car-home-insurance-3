@@ -65,3 +65,9 @@ Open `htmlcov/index.html` for the line-by-line coverage report.
 - **`PRD.md`** / **`TASKS.md`** — product scope and task tracking.
 - **`LAUNCH-CHECKLIST.md`** / **`LAWYER-QUESTIONS.md`** — what's left before this could
   go live.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE). Code only: this covers the FastAPI service and the
+site's HTML/CSS/JS, not an endorsement of the insurance content itself, which is
+educational and still has draft/placeholder sections (see "Status" above).
