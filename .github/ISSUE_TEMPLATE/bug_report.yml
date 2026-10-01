@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in the site or API isn't working as expected
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is the bug?
+      options:
+        - Static site (static/) — layout, content, nav
+        - tool.html (the price + coverage estimator)
+        - compare.html (company comparison)
+        - quick-check/ (the API-backed quick tool)
+        - insurance_risk_service.py (the FastAPI service)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / OS (for a layout or rendering bug)
+      placeholder: "e.g. Chrome 154 on Windows 10, viewport ~390px wide"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here if it's a visual bug — very helpful for layout issues.
+    validations:
+      required: false
