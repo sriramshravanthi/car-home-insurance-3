@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car and Home Insurance Intelligence: Final Report</title>
+<style>
+:root{--bg:#F6F7F5;--surface:#FFFFFF;--ink:#16211C;--muted:#52605A;--line:#D6DDD8;--brand:#0F5B4A;--warn:#9A3412;--warn-tint:#FBEBE0;--good:#166534;--good-tint:#E3F2E8;--head:#E8EEEA;}
+@media (prefers-color-scheme: dark){:root{--bg:#0F1512;--surface:#16201B;--ink:#E7EEE9;--muted:#A2B0A8;--line:#2B3A33;--brand:#6CCBA9;--warn:#F2A06B;--warn-tint:#3A2413;--good:#7ED6A0;--good-tint:#153223;--head:#1D2A24;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:36px 20px 80px}
+h1{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin:0 0 8px}
+h2{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.4rem;margin:44px 0 10px;padding-top:14px;border-top:2px solid var(--brand)}
+h3{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.05rem;margin:22px 0 6px}
+p{margin:0 0 12px} ul,ol{margin:0 0 12px;padding-left:22px} li{margin-bottom:5px}
+.meta{color:var(--muted);font-family:system-ui,sans-serif;font-size:.92rem}
+.box{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--brand);padding:14px 18px;border-radius:0 8px 8px 0;margin:18px 0}
+.box.warn{border-left-color:var(--warn);background:var(--warn-tint)}
+.tw{overflow-x:auto;margin:10px 0 16px}
+table{border-collapse:collapse;width:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.9rem;background:var(--surface)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--head);font-weight:700}
+td.n,th.n{text-align:right;white-space:nowrap}
+a{color:var(--brand);font-weight:600}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.88em;background:var(--head);padding:1px 5px;border-radius:4px}
+.small{font-size:.9rem;color:var(--muted)}
+.ok{color:var(--good);font-weight:700} .flag{color:var(--warn);font-weight:700}
+nav.toc{font-family:system-ui,sans-serif;font-size:.92rem;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:6px 14px}
+nav.toc a{white-space:nowrap}
+footer{margin-top:50px;color:var(--muted);font-size:.88rem;font-family:system-ui,sans-serif}
+@media print{body{background:#fff;color:#000} nav.toc{display:none} h2{break-after:avoid} table{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<h1>Car and Home Insurance Intelligence: Final Report</h1>
+<p class="meta">Research, product, validation and governance &middot; US market &middot; September 29, 2026</p>
+<nav class="toc" aria-label="Contents">
+<a href="#summary">Summary</a><a href="#use">How to use it</a><a href="#market">Market</a><a href="#rules">Regulation</a><a href="#numbers">The numbers</a><a href="#validation">Validation</a><a href="#coverage">Coverage checks</a><a href="#consult">Consultancies</a><a href="#trust">Trust tools</a><a href="#testing">Testing</a><a href="#open">Limits and next steps</a><a href="#sources">Sources</a>
+</nav>
+</header>
+
+<section id="summary">
+<h2>Summary</h2>
+<div class="box"><p><b>This is the strongest version I can build without real customer quotes, live services or legal input, and with browser testing limited to Chromium.</b> It is a learning-grade tool for checking car and home insurance, with published benchmarks, tested against real insurer prices from one state, with built-in fairness and monitoring tools. It is not a quote engine and not advice.</p></div>
+<h3>What you have</h3>
+<ul>
+<li><b>The checker</b> (<code>insurance-price-check.html</code>): car and home flows for all 50 states and D.C., a price estimate with a range and a percentile, coverage checks, ways to lower cost without creating a gap, a test bench for real quotes, and a Trust and fairness section.</li>
+<li><b>This report</b>, the <b>home blueprint</b> (deep dive on home), the <b>quote collection kit</b> with request sheets for Texas, Florida and California, and <b>Oklahoma's official insurer samples</b> as a tidy CSV.</li>
+<li><b>An address helper</b> (<code>insurance_risk_service.py</code>) that fills flood and hazard boxes from FEMA data.</li>
+</ul>
+<h3>Five findings worth knowing</h3>
+<ol>
+<li><b>Insurers disagree far more than most people expect.</b> In Oklahoma's official samples the highest insurer charged about 4.7 to 4.9 times the lowest for the same driver or home. A single "correct" price does not exist, so the tool shows a range and where your price sits among insurers.</li>
+<li><b>My first model was wrong, and testing found it.</b> Against those official prices it was 12% to 51% low. It now sits within about 6% of the median insurer for adult drivers and about 10% for homes, after fixes to the cost of own-car cover, teen drivers, small houses and the width of the ranges.</li>
+<li><b>The biggest home risks are gaps, not price.</b> Published rebuild costs run from $162 to $350 a square foot, one survey found three in four homeowners underinsured, a 2% hurricane deductible on a $560,000 house is $11,200, and an older roof paid at depreciated value can leave most of a $20,000 replacement to the owner.</li>
+<li><b>When prices rise, households cut protection.</b> J.D. Power reports that financially constrained drivers, especially younger ones, more often reduce coverage or let policies lapse than shop. The checker now ranks ways to save that do not create a gap, and lists what not to cut.</li>
+<li><b>Regulators expect documented, tested, monitored models.</b> The NAIC model bulletin, New York's Circular Letter No. 7 and Colorado's SB21-169 all point to governance, bias testing and documentation. The checker includes a model card, controls register, fairness screen and monitoring tool, and is honest about the two controls still missing (an accountable owner and an incident process).</li>
+</ol>
+<div class="box warn"><p><b>What is not done.</b> No real quotes for Texas, Florida or California have been tested; only Oklahoma's official samples, and some fixes used the same data, so the validation is partial. Home prices are the roughest number: a second published source is 25% to 60% lower in the states compared. The address helper has passed only offline tests. No real browser was available, so layout, printing and the copy button are untested on screen. There has been no legal review.</p></div>
+</section>
+
+<section id="use">
+<h2>1. How to use it</h2>
+<ol>
+<li>Open <code>insurance-price-check.html</code> from your computer (double-click). Nothing is uploaded or stored.</li>
+<li>Choose <b>Car insurance</b> or <b>Home insurance</b> and answer the steps. The form starts with an example so you can see how it works.</li>
+<li>Read the verdict, the range and the percentile, then the coverage sections and the stress test, and use "Take this to an agent".</li>
+<li>To test the model, open <b>Test with real quotes</b>: press the Oklahoma button for the built-in official comparison, or build a request sheet and load filled quotes (see the collection kit).</li>
+<li>Open <b>Trust and fairness</b> for the model card and controls, the rules audit, the fairness screen and monitoring over time.</li>
+<li>Optional: run <code>python insurance_risk_service.py</code>, keep the checker open from disk, and use "Look up my address".</li>
+</ol>
+</section>
+
+<section id="market">
+<h2>2. Market context</h2>
+<ul>
+<li><b>Car prices vary widely by state.</b> NerdWallet's September 2026 analysis of public filings puts the national median full-coverage premium at $2,344 a year, from $1,148 in Wyoming to $4,296 in Louisiana, for a 35-year-old with a clean record and good credit.</li>
+<li><b>Home prices vary more.</b> Insurance.com's September 15, 2026 averages for $300,000 of cover range from $738 in Hawaii to $8,471 in Florida, with a national average of $2,872. Other published sources put the national figure as low as about $1,700, and are 25% to 60% lower than Insurance.com in the ten states compared.</li>
+<li><b>Claim costs are at records.</b> LexisNexis reports all-peril claim severity in 2025 up 25.9% from 2024 and 93.2% above 2019, with fire and lightning severity up 67.3% (largely the Los Angeles wildfires).</li>
+<li><b>Access to cover is tightening in some places.</b> California's FAIR Plan held about 668,000 policies with about $724 billion of exposure at a January 2026 hearing; Florida's Citizens plays the same insurer-of-last-resort role.</li>
+<li><b>Households react to price.</b> J.D. Power's second-quarter 2026 report shows auto shopping at 12.6% and switching at 4.5%, home shopping at 7.1% and switching at 2.5%, and a median premium above $3,200 among auto switchers. Two thirds of consumers use AI in researching coverage; few follow the guidance exactly, and more than a third changed a policy based on it. That last point is why the tool tells users to verify and to talk to an agent.</li>
+</ul>
+</section>
+
+<section id="rules">
+<h2>3. Regulation and governance</h2>
+<h3>Rules the tool respects</h3>
+<ul>
+<li><b>Credit.</b> Banned for car pricing in California, Hawaii, Massachusetts and Michigan, and for home pricing in California, Maryland and Massachusetts; the tool ignores credit there. Oregon and Utah limit its use for car pricing.</li>
+<li><b>Licensing.</b> Recommending a policy or comparing quotes for compensation can trigger producer licensing in each state. The tool is advisory: it does not sell, bind or compare live quotes. Get counsel's view before adding a purchase path.</li>
+<li><b>State minimum liability.</b> Checked against official state sources for Texas, Florida, New York, Michigan, Pennsylvania, Washington, Massachusetts, Hawaii, Ohio and North Carolina; California's statute is identified and Illinois is partly checked; other states come from consumer guides and are labelled.</li>
+</ul>
+<h3>AI and fairness expectations</h3>
+<ul>
+<li>The <b>NAIC model bulletin</b> asks insurers to keep a governance and risk-management framework so that models are documented, tested and validated, including for unfair discrimination. Sources put adoption at about 25 states and D.C. by mid-2026, with more than 20 having adopted or proposed guidance by late 2025.</li>
+<li><b>New York's Insurance Circular Letter No. 7 (2024)</b> requires insurers to be able to show that external data and AI systems do not proxy for protected classes or produce disproportionate adverse effects, and to document their testing methods.</li>
+<li><b>Colorado's SB21-169</b> bars unfair discrimination through external data and algorithms and requires governance and testing; its definition turns on a disproportionately negative outcome that exceeds the reasonable correlation to the underlying insurance risk.</li>
+<li>Tests widely used include the <b>adverse impact ratio</b> and regression-based checks, with a known caution: when group labels are inferred from names or addresses, measurement error can distort the results.</li>
+</ul>
+<p class="small">These rules apply to insurers. This checker is not an insurer and its outputs do not set anyone's price, but the same practices (documentation, testing, monitoring) are the right standard for a tool people rely on.</p>
+</section>
+
+<section id="numbers">
+<h2>4. How the numbers are built</h2>
+<h3>Car</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 1 (scrolls sideways if needed)"><table>
+<thead><tr><th>Input</th><th>Value used</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>State price level</td><td>Published median for all 50 states and D.C.</td><td class="ok">Sourced: NerdWallet, September 2026 (public filings via Quadrant)</td></tr>
+<tr><td>Ticket, at-fault crash, DUI, poor credit</td><td>1.29x, 1.49x, 1.89x, 1.68x</td><td class="ok">Sourced: NerdWallet</td></tr>
+<tr><td>Age</td><td>Curve from 3.6x at 16 (own policy) to 0.82x at 65; 2.04x at 20</td><td class="ok">Sourced: NerdWallet (age 20), Oklahoma official samples (age 16), Insurify (30 and up); age 25 assumed</td></tr>
+<tr><td>Deductible</td><td>$500 about 1.15x, $2,000 about 0.865x of $1,000</td><td class="ok">Sourced: NerdWallet average savings</td></tr>
+<tr><td>Own-car and liability shares</td><td>Liability 0.26 / 0.31 / 0.36 (minimum / 50-100-50 / 100-300-100); own-car cover 0.45 (collision) and 0.64 (full)</td><td class="ok">Anchored on NerdWallet minimum-limit data and Oklahoma's official samples; split between collision and comprehensive assumed</td></tr>
+<tr><td>Discounts</td><td>Multi-policy 12%, multi-car 10%, defensive driving 5%, good student 8%, low mileage 6%; safe-driver already in the reference prices</td><td class="ok">Sourced ranges from consumer-finance sites; typical values chosen by me</td></tr>
+<tr><td>Vehicle value, mileage, business use, second and third incidents, fair and excellent credit</td><td>Applied as entered</td><td class="flag">Assumed</td></tr>
+</tbody></table></div>
+<h3>Home</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 2 (scrolls sideways if needed)"><table>
+<thead><tr><th>Input</th><th>Value used</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>State price level and coverage scaling</td><td>Each state's four published points ($200K, $300K, $400K, $600K), interpolated; slower slope below $200K</td><td class="ok">Sourced: Insurance.com, September 15, 2026; below-$200K slope from Oklahoma's samples</td></tr>
+<tr><td>Deductible; liability</td><td>$2,500 is 0.91x, $5,000 is 0.84x; $100K liability 0.991x</td><td class="ok">Sourced: Insurance.com averages</td></tr>
+<tr><td>Claims; credit</td><td>1.16x, 1.29x, 1.45x; poor 2.11x, average 1.07x, excellent 0.89x</td><td class="ok">Sourced: MoneyGeek (one and two claims), Bankrate; three or more claims assumed; studies disagree widely on credit</td></tr>
+<tr><td>Masonry vs. frame</td><td>0.98x</td><td class="ok">Sourced: Oklahoma official samples</td></tr>
+<tr><td>Roof age, house age, occupancy, local hazards</td><td>Applied as entered</td><td class="flag">Assumed</td></tr>
+<tr><td>Rebuild cost</td><td>$162, $280 and $350 a square foot, shown as a range</td><td class="ok">Sourced: NAHB, NerdWallet with First Street data, Insure.com; the sources disagree</td></tr>
+</tbody></table></div>
+<h3>Range and percentile</h3>
+<p>The range is the middle half of expected insurer prices: about x0.74 to x1.35 for cars and x0.73 to x1.37 for homes. It comes from how much insurers differ for identical customers in Oklahoma's official samples (log standard deviation 0.37 to 0.43), plus an assumed 0.20 for the tool's own error. The percentile applies the same spread to say how your price compares with what insurers would charge someone like you. Both are rough and based on one state.</p>
+</section>
+
+<section id="validation">
+<h2>5. Validation</h2>
+<h3>Against official insurer prices (Oklahoma)</h3>
+<p>The Oklahoma Insurance Department publishes real per-insurer premiums for identical sample customers: about 20 insurers, five driver profiles for a 2018 Chevrolet Malibu, five cities, and HO-3 homes at five coverage levels, frame and masonry, four cities. That is 1,000 car prices and 800 home prices, provided in <code>oklahoma-official-insurer-samples.csv</code>.</p>
+<div class="tw" tabindex="0" role="region" aria-label="Table 3 (scrolls sideways if needed)"><table>
+<thead><tr><th>Check</th><th>Before fixes</th><th>After fixes</th></tr></thead>
+<tbody>
+<tr><td>Car, model / median insurer: age 16 / 21 / 36 / 55 / 70</td><td class="flag">0.62 / 0.91 / 0.79 / 0.83 / 0.84</td><td class="ok">1.09 / 1.09 / 0.94 / 0.99 / 1.00</td></tr>
+<tr><td>Home, model / median insurer: $100K / $200K / $300K / $400K / $500K</td><td>0.77 / 0.96 / 0.93 / 0.98 / 0.96</td><td>0.94 / 0.90 / 0.91 / 0.93 / 0.96</td></tr>
+<tr><td>Individual insurer prices inside the model's range</td><td class="flag">Home 56%; car about 35% to 40% under the old narrow ranges</td><td>Car 62%, home 59%</td></tr>
+</tbody></table></div>
+<div class="box warn"><p><b>Read this test carefully.</b> Some parameters were set from the Oklahoma data (own-car and liability shares, the age-16 multiple, masonry, the sub-$200,000 slope, the insurer spread), so the "after" column is partly in-sample. Not set from it: the state price levels, the age curve from 21 up, and the home coverage curve from $200,000 up. Home fit slipped a little in the middle ($200K to $400K) while improving at $100K. It is one state, one moment and insurers' standard programs, not real quotes with discounts and claims history.</p></div>
+<h3>Other independent checks</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 4 (scrolls sideways if needed)"><table>
+<thead><tr><th>Check</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>20-year-old, clean record, national (NerdWallet March 2026: $395 a month)</td><td class="ok">Model within 1%. Before the fix (Insurify's 1.48x), about 27% low</td></tr>
+<tr><td>40-year-old with one speeding ticket, national ($241 a month)</td><td class="ok">Model within 3%</td></tr>
+<tr><td>Car state medians, March vs. September 2026 (23 states)</td><td>22 of 23 within 20%; Florida moved 23%</td></tr>
+<tr><td>Home coverage curve, leave-one-out over 51 states</td><td class="ok">Interior points 1.2% mean error; end points 2.9%</td></tr>
+<tr><td>Home cross-source: InsuranceQuotes vs. Insurance.com, ten states</td><td class="flag">The other source is 38% to 80% of the model level; inside the range in 5 of 10 states</td></tr>
+</tbody></table></div>
+<h3>Where more official data exists</h3>
+<p>Texas publishes similar sample rates for cars and homes through HelpInsure.com under Insurance Code chapter 32; it is an interactive site my tools could not read, but tables copied from it can be pasted into the Test tab. Delaware has a regulation requiring insurers to submit sample homeowners rates for a public comparison. Other states' insurance departments may publish comparable guides.</p>
+</section>
+
+<section id="coverage">
+<h2>6. Coverage checks</h2>
+<h3>Car</h3>
+<ul>
+<li><b>Own-car cover</b> suggested from car value, loan status and local hazards, with the price effect of changing it.</li>
+<li><b>Liability check:</b> the state legal minimum, your limits, and a suggested level from what you could lose. Legal is not the same as safe.</li>
+<li><b>Uninsured and underinsured drivers:</b> whether your state requires the cover (New York, Illinois, Massachusetts, North Carolina, Connecticut, Kansas and Maine per the sources found) or only requires an offer (Pennsylvania, Hawaii, Texas).</li>
+<li><b>No-fault states</b> (12): personal injury protection and the lawsuit threshold in plain language. <b>SR-22 and FR-44</b> after a DUI. <b>Telematics</b> as a what-if with its risks.</li>
+</ul>
+<h3>Home</h3>
+<ul>
+<li><b>Rebuild cost:</b> three published estimates side by side with your shortfall against each, and the coinsurance warning below 80%.</li>
+<li><b>Storm deductibles and roof:</b> the dollar amount of a percentage deductible on your limit, against the average wind or hail claim of about $13,500; the roof paid at replacement cost versus actual cash value; roof-age eligibility notes, including Florida's roof-age rule as summarized by roofing contractors (verify the statute).</li>
+<li><b>Policy stress test:</b> what your policy would pay, using your own terms, in 11 situations from a fire to a large lawsuit, using published average claim sizes (fire $83,991, liability $31,690, water $13,954, wind and hail $13,511, theft $5,024) and clearly labelled illustrative losses.</li>
+<li><b>Endorsements and special limits</b> (ordinance or law, extended replacement cost, water backup, contents valuation, umbrella) and <b>market access</b>, including the FAIR Plan and Citizens facts and what to do if non-renewed.</li>
+<li><b>Flood and earthquake</b> are excluded from standard policies; NFIP offers up to $250,000 for a home and $100,000 for contents after a typical 30-day wait, and lenders must require flood cover for federally backed mortgages in a Special Flood Hazard Area.</li>
+</ul>
+<h3>Both</h3>
+<ul>
+<li>A <b>protection-gap score</b> (car: liability, uninsured drivers, own-car cover, deductible; home: eight weighted items), <b>ways to lower cost without creating a gap</b> with the things not to cut, a <b>renewal check</b> with deductible break-even, a <b>quote comparison</b> that caps the score of thin-coverage quotes, a <b>claim-readiness checklist</b>, and a <b>decision receipt</b> for every result.</li>
+</ul>
+</section>
+
+<section id="consult">
+<h2>7. What the consultancies point to, and what was built</h2>
+<p class="small">The ten firms are my selection of firms with prominent US insurance practices; I found no authoritative ranking. This round I read excerpts of PwC's AI-in-insurance and model-risk pages, Milliman's disparate-impact page and Deloitte's 2026 outlook and a policyholder survey, plus J.D. Power and TransUnion consumer data. The other firms' notes are from search excerpts in the earlier round, not full pages. All ten sell to insurers; this tool serves consumers, so it borrows their practices rather than their products.</p>
+<div class="tw" tabindex="0" role="region" aria-label="Table 5 (scrolls sideways if needed)"><table>
+<thead><tr><th>Firm</th><th>What its material emphasizes</th><th>What the checker does about it</th><th>Not done</th></tr></thead>
+<tbody>
+<tr><td>PwC</td><td>Govern decisions, not just models; controls: inventory, approved-use register, data lineage, validation standards, monitoring, change control, incident management, audit trails, third-party oversight; auditable rationales; bias and adverse-impact monitoring</td><td>12-item controls register in the model card; decision receipt on every result; monitoring tool; fairness screen</td><td>Incident process and an accountable owner</td></tr>
+<tr><td>Milliman</td><td>Disparate-impact analysis and model review; rate-filing and validation support</td><td>Adverse impact ratio, significance test and proxy screen; validation against official rates</td><td>Independent third-party review</td></tr>
+<tr><td>Deloitte</td><td>Trust, transparency and human oversight; a Swiss survey of 1,291 policyholders found 51% fear AI may make unfair decisions and stress transparency and human monitoring (not US data)</td><td>Plain-language reasons, model card, "confirm with an agent" throughout</td><td>US survey evidence</td></tr>
+<tr><td>McKinsey</td><td>Coverage gaps and limits of AI (earlier excerpt)</td><td>Protection-gap scores; cost-saving options that avoid new gaps</td><td>McKinsey pages themselves not read this round</td></tr>
+<tr><td>Oliver Wyman</td><td>Ratemaking, predictive models and validation (earlier excerpt)</td><td>Validation against official data; spread-based ranges; versioned model</td><td>A full GLM ratemaking pipeline</td></tr>
+<tr><td>KPMG</td><td>Transparent actuarial models; climate and cost pressure (earlier excerpt)</td><td>Sourced-versus-assumed tables; market-access notes</td><td></td></tr>
+<tr><td>EY</td><td>AI roadmap gated by governance and data readiness (earlier excerpt)</td><td>Phase gates in the plan; controls register</td><td></td></tr>
+<tr><td>BCG</td><td>Personalization and benchmarks (earlier excerpt)</td><td>Percentile and published-group comparison</td><td>True peer benchmark needs a quote database</td></tr>
+<tr><td>Accenture</td><td>Claims and customer experience (earlier excerpt)</td><td>Guided flow; claim-readiness checklist</td><td>Claims automation (out of scope)</td></tr>
+<tr><td>Cognizant</td><td>Flood maps and GIS with claims history (earlier excerpt)</td><td>FEMA flood and hazard lookup helper</td><td>Live test of the helper</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="trust">
+<h2>8. Trust tools</h2>
+<ul>
+<li><b>Model card:</b> intended use, what it is not for, how it works, validation numbers computed live, limitations, the controls register with honest status, change log, and where to complain.</li>
+<li><b>Rules audit:</b> how much each input moves the estimate and whether the multiple is sourced or assumed; which inputs are used (state, age, driving record, claims, credit where allowed, property facts) and which are not (ZIP code, gender, marital status, occupation, income, education, race, religion, national origin); and the non-price decisions that depend on inputs.</li>
+<li><b>Fairness screen</b> for your own data: adverse impact ratios (flag below 0.80) for favorable outcomes or cost ratios (flag above 1.25) for prices, a significance test, small-group warnings, and a proxy screen (correlation ratio or Cramer's V) showing which columns could stand in for group membership. A flag prompts investigation; it is not a finding of discrimination.</li>
+<li><b>Monitoring</b> for your own data: monthly bias, range coverage and median error, a population stability index for the mix of inputs, and alerts (bias above 10%, coverage below 80%, error above 15%, mix shift above 0.25).</li>
+<li><b>Accessibility:</b> an automated scan (axe-core) of the main screens found and I fixed three problems (an unlabelled summary box, empty table headers, and content outside landmarks); it now reports none on six screens. All colour pairs meet the WCAG AA text-contrast ratio of 4.5 in light and dark themes, checked by calculation. Not done: screen-reader, keyboard-only and real-device testing.</li>
+</ul>
+<p class="small">The fairness screen and monitoring need data the tool does not have. They are ready to run when quotes or outcomes exist; until then, the model card records that testing has not been done on real outcomes.</p>
+</section>
+
+<section id="testing">
+<h2>9. Testing</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 6 (scrolls sideways if needed)"><table>
+<thead><tr><th>Suite</th><th class="n">Checks</th><th>Covers</th></tr></thead>
+<tbody>
+<tr><td>Core model and wizard</td><td class="n">337</td><td>All 51 places, edge inputs, validation, quote comparison, safety</td></tr>
+<tr><td>Features</td><td class="n">398</td><td>Protection gap, renewal, receipt, claim readiness, home and car scenarios</td></tr>
+<tr><td>Independent validation</td><td class="n">251</td><td>Age checks, drift checks, leave-one-out, cross-source, validation tab, address panel</td></tr>
+<tr><td>Home suite</td><td class="n">203</td><td>Rebuild cost, storm deductibles, roof, stress test, market risk, pricing factors</td></tr>
+<tr><td>Quote sheets and validator</td><td class="n">249</td><td>Sheet builder, across-insurer analysis, calibration suggestions</td></tr>
+<tr><td>Official data</td><td class="n">86</td><td>Re-computes Oklahoma medians and spreads from the raw data; model versus insurers</td></tr>
+<tr><td>Trust tools</td><td class="n">200</td><td>Fairness screen, proxies, monitoring, rules audit, model card, savings options, accessibility scan</td></tr>
+<tr><td>Address helper</td><td class="n">13</td><td>Mocked responses, bad input, failures, caching, local HTTP round trip</td></tr>
+</tbody></table></div>
+<p><b>1,737 automated checks pass.</b> Most ran in a simulated browser. In a real browser (Chromium only) the website version of the tool passed 33 interaction checks (copy, print to PDF, CSV download and upload, keyboard focus, reflow at 320 pixels), an accessibility scan including colour contrast in light and dark, and a check that it makes no outside network requests. That testing found and fixed a phone-layout overflow. Not tested: Safari, Firefox, real phones, screen readers.</p>
+</section>
+
+<section id="open">
+<h2>10. Limits and next steps</h2>
+<h3>Limits, in order of importance</h3>
+<ol>
+<li><b>No real-quote validation in the pilot states.</b> Oklahoma's official samples are the only real per-insurer data tested, and the fit is partly in-sample.</li>
+<li><b>Home prices are one source's view.</b> Another published source is 25% to 60% lower in the states compared.</li>
+<li><b>State-level only.</b> City moved the same profile's price by up to about 16% (car) and 22% (home) within Oklahoma; the tool cannot see your address.</li>
+<li><b>The percentile borrows Oklahoma's insurer spread</b> for every state.</li>
+<li><b>Untested in practice:</b> the address helper against live services; the tool in Safari, Firefox and on real phones; screen-reader use. (Chromium desktop and phone-size layout, printing and copy were tested.)</li>
+<li><b>No owner, no incident process, no legal review</b>; the two controls marked "not built" in the model card.</li>
+</ol>
+<h3>What would move it forward</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 7 (scrolls sideways if needed)"><table>
+<thead><tr><th>Step</th><th>Who</th></tr></thead>
+<tbody>
+<tr><td>Copy Texas HelpInsure sample-rate tables into the Test tab; look for other states' official comparisons</td><td>You (an hour or two)</td></tr>
+<tr><td>Have an independent agent price the request sheets for Texas, Florida and California with 3 to 5 insurers, then run the Test tab and act on the corrections</td><td>An agent, then me</td></tr>
+<tr><td>Run <code>python insurance_risk_service.py --live-check</code> once</td><td>You</td></tr>
+<tr><td>Test in Safari, Firefox and on real phones, and with a screen reader (Chromium was tested)</td><td>You or a tester</td></tr>
+<tr><td>Name an owner, define an incident process, get licensing and compliance advice</td><td>You, with counsel</td></tr>
+<tr><td>Choose and license a home-price dataset and a rebuild-cost source if the product goes beyond education</td><td>You</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="sources">
+<h2>Sources</h2>
+<p class="small">From search results reviewed on September 29, 2026. Where full pages were not opened, figures are approximate. Commercial sites (roofing contractors, agencies, consumer-finance sites) are flagged where used.</p>
+<ul>
+<li><b>Official data:</b> <a href="https://www.oid.ok.gov/consumers/insurance-basics/auto-insurance-rate-comparison/">Oklahoma Insurance Department auto rate comparison (Sept 2026)</a> &middot; <a href="https://www.oid.ok.gov/consumers/insurance-basics/home-insurance-rate-comparison/">home rate comparison (Aug 2026)</a> &middot; <a href="https://tdi.texas.gov/company/data-collection/dchlpins.html">Texas HelpInsure data call</a></li>
+<li><b>Car prices:</b> <a href="https://www.nerdwallet.com/insurance/auto/car-insurance-calculator">NerdWallet state medians</a> &middot; <a href="https://www.nerdwallet.com/insurance/auto/cheap-full-coverage-insurance">NerdWallet full-coverage analysis</a> &middot; <a href="https://insurify.com/car-insurance/cheap-car-insurance/age/">Insurify by age</a> &middot; <a href="https://www.nerdwallet.com/insurance/auto/news/insurance-deductible-savings">NerdWallet deductible savings</a></li>
+<li><b>Home prices:</b> <a href="https://www.insurance.com/home-and-renters-insurance/home-insurance-basics/average-homeowners-insurance-rates-by-state">Insurance.com (Sept 15, 2026)</a> &middot; <a href="https://www.insurancequotes.com/home/rates-by-state">InsuranceQuotes</a> &middot; <a href="https://www.compare.com/homeowners-insurance/average-cost-home-insurance">Compare.com</a></li>
+<li><b>Claims, credit, rebuild cost:</b> <a href="https://www.moneygeek.com/insurance/homeowners/home-insurance-costs-after-a-claim/">MoneyGeek</a> &middot; <a href="https://www.bankrate.com/insurance/homeowners-insurance/does-credit-score-affect-home-insurance/">Bankrate</a> &middot; <a href="https://www.nerdwallet.com/insurance/homeowners/news/rebuilding-costs">NerdWallet rebuild costs</a> &middot; <a href="https://www.insure.com/home-insurance/home-replacement-cost-calculator/">Insure.com survey</a> &middot; <a href="https://trust.cnb.bank/files/flipbooks/financial-management/10">Insurance Information Institute claim sizes</a></li>
+<li><b>Market and consumers:</b> <a href="https://risk.lexisnexis.com/about-us/press-room/press-release/20260722-home-trends-report">LexisNexis 2026 Home Trends Report</a> &middot; <a href="https://www.insurancebusinessmag.com/us/news/property/you-cannot-depopulate-the-fair-plan-if-its-cheaper-563757.aspx">California FAIR Plan hearing</a> &middot; <a href="https://hub.jdpower.com/hubfs/FSAAS/Insurance/26-JDP_LIST%20Report%20Q2%202026_FINAL.pdf">J.D. Power / TransUnion Q2 2026</a> &middot; <a href="https://www.emarketer.com/content/auto-insurance-shopping-cools-switching-accelerates-exposing-affordability-divide">affordability divide</a> &middot; <a href="https://businesswire.com/news/home/20241031007621/en/Consumers-Demand-Change-New-Majesco-Research-Uncovers-Tipping-Point-that-Challenges-Insurers-to-Innovate-and-Evolve">Majesco research</a></li>
+<li><b>Minimum liability (official):</b> <a href="https://www.tdi.texas.gov/bulletins/2010/cc46.html">Texas</a> &middot; <a href="https://flhsmv.gov/insurance/">Florida</a> &middot; <a href="https://dmv.ny.gov/insurance/new-york-state-insurance-requirements">New York</a> &middot; <a href="https://michigan.gov/-/media/Project/Websites/autoinsurance/PDFs/FIS-PUB_5100a.pdf">Michigan</a> &middot; <a href="https://www.pa.gov/agencies/insurance/consumer-help-center/learn-about-insurance/auto-insurance">Pennsylvania</a> &middot; <a href="https://dol.wa.gov/node/192">Washington</a> &middot; <a href="https://www.mass.gov/doc/2025-a-new-motor-vehicle-mandatory-coverage-limits/download">Massachusetts</a> &middot; <a href="https://cca.hawaii.gov/ins/files/2023/05/Auto-Minimum-Limits-FAQs.pdf">Hawaii</a> &middot; <a href="https://dam.assets.ohio.gov/image/upload/publicsafety.ohio.gov/bmv3101.pdf">Ohio</a> &middot; <a href="https://ncdoi.gov/media/5/open">North Carolina</a></li>
+<li><b>Flood and hazards:</b> <a href="https://msc.fema.gov/portal/home">FEMA Flood Map Service Center</a> &middot; <a href="https://www.fema.gov/flood-maps/products-tools/national-risk-index">FEMA National Risk Index</a> &middot; <a href="https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28">flood hazard zones layer</a> &middot; <a href="https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.pdf">Census Geocoder</a> &middot; <a href="https://www.guidewire.com/products/hazardhub/">Guidewire HazardHub</a></li>
+<li><b>Regulation and fairness:</b> <a href="https://content.naic.org/sites/default/files/legal-adoption-map-ai-model-bulletin.pdf">NAIC model bulletin adoption map</a> &middot; <a href="https://ar.casact.org/ai-regulation-in-insurance-a-road-to-unintended-consequences/">Actuarial Review on AI regulation</a> &middot; <a href="https://www.milliman.com/en/insight/the-insurance-industrys-renewed-focus-on-disparate-impacts-and-unfair-discrimination">Milliman on disparate impact</a> &middot; <a href="https://www.alston.com/en/insights/publications/2024/08/ny-dept-financial-services-provides-ai-guidance">Alston &amp; Bird on New York Circular Letter 7</a> &middot; <a href="https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07">NYDFS Circular Letter 2024-7</a> &middot; <a href="https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-insurance-practices">Colorado SB21-169</a> &middot; <a href="https://arxiv.org/html/2603.17106v1">research on proxy-race fairness audits</a></li>
+<li><b>Consultancies:</b> <a href="https://www.pwc.com/us/en/services/audit-assurance/library/future-of-insurance-model-risk-management.html">PwC model risk management</a> &middot; <a href="https://www.pwc.com/us/en/services/audit-assurance/library/ai-adoption-in-property-casualty-insurance.html">PwC AI in P&amp;C</a> &middot; <a href="https://www.milliman.com/en/insight/the-insurance-industrys-renewed-focus-on-disparate-impacts-and-unfair-discrimination">Milliman</a> &middot; <a href="https://www.deloitte.com/content/dam/insights/articles/2025/us188426_cfs_insurance-outlook-2026/pdf/DI_2026-global-insurance-outlook.pdf">Deloitte 2026 outlook</a> &middot; <a href="https://www.deloitte.com/content/dam/assets-zone2/ch/en/docs/about/2026/deloitte-ch-press-release-ai-insurance-en.pdf">Deloitte Swiss policyholder survey</a></li>
+</ul>
+</section>
+
+<footer><p>This report describes a learning model, not insurance advice or a quote. Consult a licensed agent or your state insurance department before changing coverage.</p></footer>
+</main>
+</body>
+</html>

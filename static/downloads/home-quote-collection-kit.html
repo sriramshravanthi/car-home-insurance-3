@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Quote Collection Kit</title>
+<style>
+:root{--bg:#F6F7F5;--surface:#FFFFFF;--ink:#16211C;--muted:#52605A;--line:#D6DDD8;--brand:#0F5B4A;--warn:#9A3412;--warn-tint:#FBEBE0;--good:#166534;--head:#E8EEEA;}
+@media (prefers-color-scheme: dark){:root{--bg:#0F1512;--surface:#16201B;--ink:#E7EEE9;--muted:#A2B0A8;--line:#2B3A33;--brand:#6CCBA9;--warn:#F2A06B;--warn-tint:#3A2413;--good:#7ED6A0;--head:#1D2A24;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:36px 20px 80px}
+h1{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(1.8rem,4vw,2.4rem);line-height:1.15;margin:0 0 8px}
+h2{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.35rem;margin:40px 0 10px;padding-top:14px;border-top:2px solid var(--brand)}
+h3{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.05rem;margin:20px 0 6px}
+p{margin:0 0 12px} ul,ol{margin:0 0 12px;padding-left:22px} li{margin-bottom:6px}
+.meta{color:var(--muted);font-family:system-ui,sans-serif;font-size:.92rem}
+.box{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--brand);padding:14px 18px;border-radius:0 8px 8px 0;margin:18px 0}
+.box.warn{border-left-color:var(--warn);background:var(--warn-tint)}
+.tw{overflow-x:auto;margin:10px 0 16px}
+table{border-collapse:collapse;width:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.9rem;background:var(--surface)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--head);font-weight:700}
+a{color:var(--brand);font-weight:600}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.88em;background:var(--head);padding:1px 5px;border-radius:4px}
+.small{font-size:.9rem;color:var(--muted)}
+.ok{color:var(--good);font-weight:700} .flag{color:var(--warn);font-weight:700}
+@media print{body{background:#fff;color:#000} table{break-inside:avoid}}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+</style>
+</head>
+<body>
+<main class="wrap">
+<h1>Home Quote Collection Kit</h1>
+<p class="meta">How to collect real home insurance quotes for identical coverage and test the checker's model &middot; September 29, 2026</p>
+
+<div class="box warn"><p><b>Status: the quotes have not been collected.</b> Real insurer quotes need a licensed agent's rating tools or the insurers' own quote systems and real property data. I have no access to those, scraping insurer sites would breach their terms, and invented prices would make the test meaningless. This kit makes the collection quick and consistent, and the checker's Test tab does the analysis. Until real quotes are run through it, the home model is unvalidated.</p></div>
+
+<h2>1. What is in the kit</h2>
+<ul>
+<li><b>Request sheets</b> for the three pilot states: <code>home-quote-request-TX.csv</code>, <code>home-quote-request-FL.csv</code>, <code>home-quote-request-CA.csv</code>. Each has 60 standardized home profiles (seed 1) with the price column blank.</li>
+<li><b>The checker's Trust and fairness tab</b> (after quotes exist): run the fairness screen and monitoring on the same files.</li>
+<li><b>The checker's Test tab</b> (open <code>insurance-price-check.html</code> from your computer): step 1 builds more sheets for any state or seed; step 2 reads the filled sheet and reports how the model performs, including a comparison across insurers and suggested corrections.</li>
+<li><b>This protocol:</b> the coverage to request, the steps, the quality rules and how to act on the results.</li>
+</ul>
+
+<h2>1a. An interim, free alternative: official state sample rates</h2>
+<p>While real quotes are being arranged, some state insurance departments publish per-insurer premiums for identical sample customers. The Oklahoma Insurance Department's car and home guides are already built into the checker (Test tab, "Compare the model with the Oklahoma samples") and the tidy data is in <code>oklahoma-official-insurer-samples.csv</code>. Texas publishes similar sample rates through HelpInsure.com (an interactive site), and Delaware requires insurers to submit sample homeowners rates for a public comparison. Where a state publishes such tables, you can paste them into the Test tab as a CSV. These are standard programs for tidy sample customers, not real quotes with discounts and claims history, so they are a partial check, not a replacement for the collection below.</p>
+
+<h2>2. Who collects the quotes</h2>
+<ul>
+<li><b>Best: an independent agent or agency.</b> An independent agent can rate the same home with several insurers in one sitting and can run "what-if" ratings. This is the standard way to get comparable quotes.</li>
+<li><b>Alternatives:</b> volunteers who get quotes on their own homes (their real details replace the profile), or a property-data or insurance-data partner. Comparison sites are usually not suitable: many bar automated or hypothetical use in their terms.</li>
+<li><b>Do not</b> scrape insurer websites, submit false property or personal details to consumer quote forms, or use addresses you have no permission to use. Ask counsel or your agency's compliance lead if you are unsure what is allowed. I am not a lawyer.</li>
+</ul>
+
+<h2>3. How many quotes</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 1 (scrolls sideways if needed)"><table>
+<thead><tr><th><span class="sr">Item</span></th><th>Per state</th></tr></thead>
+<tbody>
+<tr><td>Profiles</td><td>60 (the sheets), giving a minimum of 50 to 100 usable profiles once declines are dropped; build extra sheets with a different seed if needed</td></tr>
+<tr><td>Insurers per profile</td><td>3 to 5 (more insurers give a truer market spread; fewer than 3 weakens the comparison across insurers)</td></tr>
+<tr><td>Quotes</td><td>180 to 300 per state</td></tr>
+<tr><td>Hold-out</td><td>Split the profiles: use about two thirds to refit the model, and keep one third untouched for the final pass/fail test</td></tr>
+</tbody></table></div>
+
+<h2>4. The standard coverage to request</h2>
+<p>Insurance.com's published state averages, which the model starts from, use $300,000 of house cover, $300,000 liability, a $1,000 deductible, good credit and a 2% hurricane deductible where it applies. To compare like with like, request the following for every quote and record any difference.</p>
+<div class="tw" tabindex="0" role="region" aria-label="Table 2 (scrolls sideways if needed)"><table>
+<thead><tr><th>Item</th><th>Request</th></tr></thead>
+<tbody>
+<tr><td>Policy form</td><td>HO-3, owner-occupied</td></tr>
+<tr><td>House cover (Coverage A)</td><td>The profile's <code>limit</code>, at replacement cost. If the insurer's own estimate forces a different limit, take the insurer's figure and write it in the <code>limit</code> column for that row</td></tr>
+<tr><td>Other structures / contents / loss of use</td><td>10% / 50% / 20% of Coverage A. Contents at actual cash value unless the insurer defaults to replacement cost; note which in <code>coverage_notes</code></td></tr>
+<tr><td>Personal liability and medical payments</td><td>The profile's <code>liability</code> ($100,000, $300,000 or $500,000); $5,000 medical payments</td></tr>
+<tr><td>Deductible (all other perils)</td><td>The profile's <code>deductible</code></td></tr>
+<tr><td>Hurricane, named-storm or wind or hail deductible</td><td>Take the insurer's default for the location and record what applied in <code>hurricane_pct_applied</code> and <code>wind_hail_pct_applied</code> (for example 2 or 5; leave blank if none)</td></tr>
+<tr><td>Roof payment</td><td>Record in <code>roof_payment_applied</code>: <code>rcv</code>, <code>acv</code> or <code>schedule</code></td></tr>
+<tr><td>Endorsements</td><td>None (no ordinance or law, water backup, extended replacement, scheduled valuables)</td></tr>
+<tr><td>Discounts</td><td>Only those applied automatically. Turn off bundling and elective discounts, and note anything you cannot turn off</td></tr>
+<tr><td>Credit</td><td>The profile's <code>credit</code> tier; California, Maryland and Massachusetts do not use credit for home, so leave it blank there</td></tr>
+</tbody></table></div>
+
+<h2>5. Step by step</h2>
+<ol>
+<li><b>Open the request sheet</b> for the state (or build one in the Test tab, step 1).</li>
+<li><b>Match each profile to a property you may use.</b> Use the <code>location_note</code> (coastal, hail region, wildfire, flood, inland) to pick a suitable area. <b>Record the actual attributes.</b> Many insurers' rating systems fill in year built, size or roof condition from public records or imagery, which overrides the profile. If the real property differs, overwrite <code>sqft</code>, <code>year</code>, <code>roof</code>, <code>build</code>, <code>claims</code> and the hazard flags with the true values, so the model is tested on the inputs the insurer actually used.</li>
+<li><b>Price it with 3 to 5 insurers on the same day</b> (within a few days at most). Rates change, so avoid mixing months.</li>
+<li><b>Copy the row once per insurer.</b> Keep the same <code>profile_id</code>; fill <code>insurer</code>, <code>quote_date</code> and <code>price</code> (annual premium, including fees the insurer includes in its quote; say which in <code>coverage_notes</code>).</li>
+<li><b>Record declines.</b> If an insurer will not quote, leave <code>price</code> blank and write <code>declined</code> and the reason in <code>coverage_notes</code>. The share of declines is itself useful data about market access, especially in Florida and California.</li>
+<li><b>Save the file as CSV</b> and load it in the Test tab (step 2): choose type Home, load the file or paste it, and press Run.</li>
+</ol>
+
+<h2>6. Quality rules</h2>
+<ul>
+<li>Different coverage is not a quote for comparison. If you could not match the standard coverage, note it; drop the row from the test if the difference is large (for example a much lower limit or ACV dwelling).</li>
+<li>Do not average or smooth prices; enter what was quoted.</li>
+<li>Keep the source and date of each quote. The checker ignores extra columns but they matter for your own audit.</li>
+<li>Do not tune the model on the hold-out third of the profiles.</li>
+<li>Store the filled sheets securely. They may contain real addresses or personal details; the sheets themselves contain only property characteristics, so avoid adding names or addresses.</li>
+</ul>
+
+<h2>7. Reading the results</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 3 (scrolls sideways if needed)"><table>
+<thead><tr><th>Measure</th><th>Target</th><th>If it fails</th></tr></thead>
+<tbody>
+<tr><td>Quotes inside the estimated range (home: plus or minus 35%)</td><td>80% or more</td><td>Widen the range, or refit the state price level (below)</td></tr>
+<tr><td>Median error</td><td>15% or less</td><td>Refit the state's price level using the multiplier shown</td></tr>
+<tr><td>Average bias</td><td>Near zero</td><td>Positive means real quotes are higher than the model: raise the state's level; negative means lower</td></tr>
+<tr><td>Across insurers: gap between highest and lowest quote</td><td>Information</td><td>Sets the floor: if insurers differ by 1.5x for the same home, no single number can be much more accurate than about plus or minus 20%</td></tr>
+<tr><td>Across insurers: estimate sits between cheapest and dearest</td><td>High</td><td>If low, the model is outside the market, not just noisy</td></tr>
+<tr><td>Suggested state multiplier (10 or more quotes)</td><td>Within 10% of 1.00</td><td>Outside 10%: change that state's level in the model by the multiplier, then re-run on the hold-out</td></tr>
+</tbody></table></div>
+<h3>Decision rules</h3>
+<ul>
+<li><b>Both targets met on the hold-out</b> for a state: you can describe that state's home estimates as validated against N quotes from a named date, and soften the "rough" labels for it. Keep the advisory disclaimers.</li>
+<li><b>Either target missed:</b> refit, then re-test on the hold-out. If it still fails, keep the "rough guide" label and consider licensing rate data instead.</li>
+<li><b>Large spread across insurers:</b> report price ranges, not point estimates, and keep the wide range.</li>
+</ul>
+<p class="small">The thresholds are starting points from the project plan, not industry standards; agree them with an actuary before publishing any claim of accuracy.</p>
+
+<h2>8. State notes</h2>
+<ul>
+<li><b>Texas:</b> about 60% of the sheet's profiles are marked for hail regions and about a quarter for coastal counties, because those drive Texas wind and hail deductibles and prices. Record the insurer's wind or hail deductible.</li>
+<li><b>Florida:</b> about two thirds of profiles are coastal. Hurricane deductible options and triggers are set by Florida law; record the percentage that applied. Some profiles with older roofs may be declined or offered only actual cash value on the roof; record it.</li>
+<li><b>California:</b> credit is not used for home pricing, so the credit column is blank. About a third of profiles are marked wildfire-exposed and half earthquake-region (earthquake is not covered by the standard policy). Expect declines in wildfire areas and record them; the FAIR Plan is a separate, more limited product and should not be mixed into the same test.</li>
+</ul>
+
+<h2>9. What this does not do</h2>
+<ul>
+<li>It does not make the model valid. Only quotes for real properties can do that.</li>
+<li>It does not model endorsements, storm deductible percentages or roof payment terms in the <em>price</em>; the model prices only the sourced factors and a few assumptions. The applied columns let you check later whether those matter.</li>
+<li>It is not licensing, legal or actuarial advice.</li>
+</ul>
+
+<h2>10. Checklist</h2>
+<ol>
+<li>Choose an independent agent or other permitted source.</li>
+<li>Agree the standard coverage in section 4 and the same-day rule.</li>
+<li>Fill 60 profiles per pilot state with 3 to 5 insurers each; record actual property attributes and declines.</li>
+<li>Load each state's file in the Test tab and read the results; keep the hold-out third for last.</li>
+<li>Apply the decision rules, refit where needed, and re-test.</li>
+<li>Write down the date, sample size and outcome for each state.</li>
+</ol>
+</main>
+</body>
+</html>

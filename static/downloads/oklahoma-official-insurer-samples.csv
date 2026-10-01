@@ -1,0 +1,1801 @@
+line,city,insurer,scenario,gender,construction,six_month_premium,annual_premium
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),male,,6845,13690
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),female,,6287,12574
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),male,,2067,4134
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),female,,1683,3366
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),male,,1095,2190
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),female,,1095,2190
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),male,,1074,2148
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),female,,1016,2032
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),male,,1136,2272
+auto,Oklahoma City,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),female,,1074,2148
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),male,,3067,6134
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),female,,2940,5880
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),male,,2127,4254
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),female,,2046,4092
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),male,,1406,2812
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),female,,1359,2718
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),male,,1383,2766
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),female,,1337,2674
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),male,,1384,2768
+auto,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),female,,1338,2676
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),male,,4689,9378
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),female,,4157,8314
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),male,,2978,5956
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),female,,2336,4672
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),male,,1229,2458
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),female,,1253,2506
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),male,,980,1960
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),female,,1016,2032
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),male,,1082,2164
+auto,Oklahoma City,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),female,,1103,2206
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario A (age 16),male,,5653,11306
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario A (age 16),female,,5775,11550
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario B (age 21),male,,1724,3448
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario B (age 21),female,,1735,3470
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario C (age 36),male,,1153,2306
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario C (age 36),female,,1054,2108
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario D (age 55),male,,1028,2056
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario D (age 55),female,,908,1816
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario E (age 70),male,,1128,2256
+auto,Oklahoma City,CSAA GENERAL INS. CO.,scenario E (age 70),female,,919,1838
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario A (age 16),male,,5700,11400
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario A (age 16),female,,4138,8276
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario B (age 21),male,,3060,6120
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario B (age 21),female,,2760,5520
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario C (age 36),male,,1686,3372
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario C (age 36),female,,1639,3278
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario D (age 55),male,,1574,3148
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario D (age 55),female,,1633,3266
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario E (age 70),male,,1979,3958
+auto,Oklahoma City,EQUITY INSURANCE COMPANY,scenario E (age 70),female,,1925,3850
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),male,,4365,8730
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),female,,3367,6734
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),male,,1825,3650
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),female,,1552,3104
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),male,,842,1684
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),female,,933,1866
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),male,,737,1474
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),female,,756,1512
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),male,,653,1306
+auto,Oklahoma City,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),female,,714,1428
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),male,,3902,7804
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),female,,3764,7528
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),male,,1414,2828
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),female,,1364,2728
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),male,,786,1572
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),female,,769,1538
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),male,,699,1398
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),female,,696,1392
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),male,,715,1430
+auto,Oklahoma City,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),female,,719,1438
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),male,,2065,4130
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),female,,2101,4202
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),male,,649,1298
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),female,,660,1320
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),male,,391,782
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),female,,391,782
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),male,,371,742
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),female,,371,742
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),male,,392,784
+auto,Oklahoma City,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),female,,392,784
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),male,,4494,8988
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),female,,2796,5592
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),male,,2590,5180
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),female,,1907,3814
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),male,,1134,2268
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),female,,1134,2268
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),male,,1021,2042
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),female,,1021,2042
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),male,,939,1878
+auto,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),female,,939,1878
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),male,,4494,8988
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),female,,3975,7950
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),male,,1718,3436
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),female,,1488,2976
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),male,,1006,2012
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),female,,972,1944
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),male,,846,1692
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),female,,769,1538
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),male,,826,1652
+auto,Oklahoma City,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),female,,773,1546
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),male,,4861,9722
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),female,,4247,8494
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),male,,1742,3484
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),female,,1409,2818
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),male,,1033,2066
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),female,,929,1858
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),male,,761,1522
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),female,,687,1374
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),male,,735,1470
+auto,Oklahoma City,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),female,,659,1318
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),male,,2222,4444
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),female,,2034,4068
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),male,,996,1992
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),female,,938,1876
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),male,,554,1108
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),female,,519,1038
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),male,,567,1134
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),female,,529,1058
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),male,,571,1142
+auto,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),female,,511,1022
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),male,,2591,5182
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),female,,1898,3796
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),male,,1691,3382
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),female,,1385,2770
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),male,,823,1646
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),female,,818,1636
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),male,,676,1352
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),female,,640,1280
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),male,,660,1320
+auto,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),female,,632,1264
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario A (age 16),male,,3993,7986
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario A (age 16),female,,3131,6262
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario B (age 21),male,,1775,3550
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario B (age 21),female,,1501,3002
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario C (age 36),male,,1155,2310
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario C (age 36),female,,1097,2194
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario D (age 55),male,,916,1832
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario D (age 55),female,,865,1730
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario E (age 70),male,,1003,2006
+auto,Oklahoma City,STANDARD FIRE INS. CO.,scenario E (age 70),female,,908,1816
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),male,,1578,3156
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),female,,1581,3162
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),male,,2937,5874
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),female,,2968,5936
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),male,,2486,4972
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),female,,2511,5022
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),male,,2349,4698
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),female,,2351,4702
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),male,,1082,2164
+auto,Oklahoma City,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),female,,1138,2276
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),male,,1158,2316
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),female,,1161,2322
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),male,,2156,4312
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),female,,2179,4358
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),male,,1826,3652
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),female,,1844,3688
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),male,,1725,3450
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),female,,1726,3452
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),male,,794,1588
+auto,Oklahoma City,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),female,,836,1672
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario A (age 16),male,,5256,10512
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario A (age 16),female,,4105,8210
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario B (age 21),male,,3431,6862
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario B (age 21),female,,2656,5312
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario C (age 36),male,,1180,2360
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario C (age 36),female,,1167,2334
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario D (age 55),male,,1166,2332
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario D (age 55),female,,1125,2250
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario E (age 70),male,,1359,2718
+auto,Oklahoma City,TRADERS INSURANCE COMPANY,scenario E (age 70),female,,1324,2648
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),male,,3320,6640
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),female,,3163,6326
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),male,,1247,2494
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),female,,1174,2348
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),male,,692,1384
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),female,,686,1372
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),male,,634,1268
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),female,,630,1260
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),male,,648,1296
+auto,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),female,,655,1310
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario A (age 16),male,,3459,6918
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario A (age 16),female,,3343,6686
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario B (age 21),male,,1293,2586
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario B (age 21),female,,1247,2494
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario C (age 36),male,,726,1452
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario C (age 36),female,,710,1420
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario D (age 55),male,,624,1248
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario D (age 55),female,,623,1246
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario E (age 70),male,,640,1280
+auto,Oklahoma City,USAA CASUALTY INS. CO.,scenario E (age 70),female,,645,1290
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario A (age 16),male,,4666,9332
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario A (age 16),female,,4498,8996
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario B (age 21),male,,1644,3288
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario B (age 21),female,,1586,3172
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario C (age 36),male,,901,1802
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario C (age 36),female,,881,1762
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario D (age 55),male,,801,1602
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario D (age 55),female,,799,1598
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario E (age 70),male,,823,1646
+auto,Oklahoma City,USAA GENERAL INDEMNITY CO.,scenario E (age 70),female,,828,1656
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),male,,6590,13180
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),female,,6057,12114
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),male,,1916,3832
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),female,,1564,3128
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),male,,1020,2040
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),female,,1024,2048
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),male,,1007,2014
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),female,,953,1906
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),male,,1072,2144
+auto,Tulsa,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),female,,1015,2030
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),male,,3106,6212
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),female,,2977,5954
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),male,,2147,4294
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),female,,2064,4128
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),male,,1411,2822
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),female,,1363,2726
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),male,,1387,2774
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),female,,1340,2680
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),male,,1363,2726
+auto,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),female,,1317,2634
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),male,,4524,9048
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),female,,4022,8044
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),male,,2859,5718
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),female,,2247,4494
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),male,,1171,2342
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),female,,1197,2394
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),male,,937,1874
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),female,,970,1940
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),male,,1039,2078
+auto,Tulsa,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),female,,1059,2118
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario A (age 16),male,,5999,11998
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario A (age 16),female,,6130,12260
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario B (age 21),male,,1827,3654
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario B (age 21),female,,1839,3678
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario C (age 36),male,,1218,2436
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario C (age 36),female,,1114,2228
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario D (age 55),male,,1087,2174
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario D (age 55),female,,959,1918
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario E (age 70),male,,1190,2380
+auto,Tulsa,CSAA GENERAL INS. CO.,scenario E (age 70),female,,968,1936
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario A (age 16),male,,5743,11486
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario A (age 16),female,,4147,8294
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario B (age 21),male,,2978,5956
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario B (age 21),female,,2736,5472
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario C (age 36),male,,1658,3316
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario C (age 36),female,,1605,3210
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario D (age 55),male,,1545,3090
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario D (age 55),female,,1606,3212
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario E (age 70),male,,1968,3936
+auto,Tulsa,EQUITY INSURANCE COMPANY,scenario E (age 70),female,,1906,3812
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),male,,4523,9046
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),female,,3460,6920
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),male,,1885,3770
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),female,,1583,3166
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),male,,862,1724
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),female,,952,1904
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),male,,751,1502
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),female,,769,1538
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),male,,668,1336
+auto,Tulsa,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),female,,730,1460
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),male,,4023,8046
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),female,,3885,7770
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),male,,1441,2882
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),female,,1392,2784
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),male,,801,1602
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),female,,784,1568
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),male,,710,1420
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),female,,708,1416
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),male,,731,1462
+auto,Tulsa,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),female,,736,1472
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),male,,2033,4066
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),female,,2067,4134
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),male,,642,1284
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),female,,652,1304
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),male,,388,776
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),female,,388,776
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),male,,367,734
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),female,,367,734
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),male,,387,774
+auto,Tulsa,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),female,,387,774
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),male,,4231,8462
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),female,,2637,5274
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),male,,2423,4846
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),female,,1789,3578
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),male,,1061,2122
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),female,,1061,2122
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),male,,954,1908
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),female,,954,1908
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),male,,880,1760
+auto,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),female,,880,1760
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),male,,4727,9454
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),female,,4197,8394
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),male,,1752,3504
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),female,,1509,3018
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),male,,962,1924
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),female,,939,1878
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),male,,814,1628
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),female,,752,1504
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),male,,820,1640
+auto,Tulsa,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),female,,777,1554
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),male,,5078,10156
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),female,,4431,8862
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),male,,1777,3554
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),female,,1429,2858
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),male,,1020,2040
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),female,,921,1842
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),male,,749,1498
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),female,,679,1358
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),male,,743,1486
+auto,Tulsa,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),female,,671,1342
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),male,,2195,4390
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),female,,2012,4024
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),male,,963,1926
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),female,,908,1816
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),male,,527,1054
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),female,,495,990
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),male,,539,1078
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),female,,504,1008
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),male,,549,1098
+auto,Tulsa,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),female,,493,986
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),male,,2474,4948
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),female,,1812,3624
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),male,,1620,3240
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),female,,1326,2652
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),male,,788,1576
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),female,,783,1566
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),male,,648,1296
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),female,,613,1226
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),male,,630,1260
+auto,Tulsa,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),female,,603,1206
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario A (age 16),male,,4919,9838
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario A (age 16),female,,3841,7682
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario B (age 21),male,,2123,4246
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario B (age 21),female,,1794,3588
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario C (age 36),male,,1356,2712
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario C (age 36),female,,1287,2574
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario D (age 55),male,,1069,2138
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario D (age 55),female,,1007,2014
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario E (age 70),male,,1197,2394
+auto,Tulsa,STANDARD FIRE INS. CO.,scenario E (age 70),female,,1090,2180
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),male,,1536,3072
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),female,,1540,3080
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),male,,2859,5718
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),female,,2890,5780
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),male,,2421,4842
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),female,,2445,4890
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),male,,2287,4574
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),female,,2289,4578
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),male,,1053,2106
+auto,Tulsa,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),female,,1108,2216
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),male,,1128,2256
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),female,,1131,2262
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),male,,2100,4200
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),female,,2122,4244
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),male,,1778,3556
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),female,,1795,3590
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),male,,1680,3360
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),female,,1681,3362
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),male,,774,1548
+auto,Tulsa,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),female,,814,1628
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario A (age 16),male,,5270,10540
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario A (age 16),female,,4111,8222
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario B (age 21),male,,3460,6920
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario B (age 21),female,,2675,5350
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario C (age 36),male,,1192,2384
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario C (age 36),female,,1178,2356
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario D (age 55),male,,1176,2352
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario D (age 55),female,,1131,2262
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario E (age 70),male,,1366,2732
+auto,Tulsa,TRADERS INSURANCE COMPANY,scenario E (age 70),female,,1330,2660
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),male,,3414,6828
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),female,,3256,6512
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),male,,1271,2542
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),female,,1198,2396
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),male,,704,1408
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),female,,699,1398
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),male,,644,1288
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),female,,641,1282
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),male,,660,1320
+auto,Tulsa,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),female,,669,1338
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario A (age 16),male,,3526,7052
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario A (age 16),female,,3412,6824
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario B (age 21),male,,1304,2608
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario B (age 21),female,,1259,2518
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario C (age 36),male,,733,1466
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario C (age 36),female,,717,1434
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario D (age 55),male,,628,1256
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario D (age 55),female,,628,1256
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario E (age 70),male,,648,1296
+auto,Tulsa,USAA CASUALTY INS. CO.,scenario E (age 70),female,,654,1308
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario A (age 16),male,,4888,9776
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario A (age 16),female,,4714,9428
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario B (age 21),male,,1704,3408
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario B (age 21),female,,1647,3294
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario C (age 36),male,,935,1870
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario C (age 36),female,,915,1830
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario D (age 55),male,,828,1656
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario D (age 55),female,,828,1656
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario E (age 70),male,,856,1712
+auto,Tulsa,USAA GENERAL INDEMNITY CO.,scenario E (age 70),female,,863,1726
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),male,,5498,10996
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),female,,5030,10060
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),male,,1725,3450
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),female,,1407,2814
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),male,,925,1850
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),female,,922,1844
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),male,,904,1808
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),female,,856,1712
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),male,,950,1900
+auto,Lawton,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),female,,900,1800
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),male,,2711,5422
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),female,,2603,5206
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),male,,1912,3824
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),female,,1842,3684
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),male,,1299,2598
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),female,,1258,2516
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),male,,1278,2556
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),female,,1239,2478
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),male,,1258,2516
+auto,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),female,,1220,2440
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),male,,3574,7148
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),female,,3119,6238
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),male,,2333,4666
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),female,,1815,3630
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),male,,998,1996
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),female,,1003,2006
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),male,,782,1564
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),female,,810,1620
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),male,,847,1694
+auto,Lawton,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),female,,877,1754
+auto,Lawton,CSAA GENERAL INS. CO.,scenario A (age 16),male,,4667,9334
+auto,Lawton,CSAA GENERAL INS. CO.,scenario A (age 16),female,,4767,9534
+auto,Lawton,CSAA GENERAL INS. CO.,scenario B (age 21),male,,1484,2968
+auto,Lawton,CSAA GENERAL INS. CO.,scenario B (age 21),female,,1488,2976
+auto,Lawton,CSAA GENERAL INS. CO.,scenario C (age 36),male,,1009,2018
+auto,Lawton,CSAA GENERAL INS. CO.,scenario C (age 36),female,,927,1854
+auto,Lawton,CSAA GENERAL INS. CO.,scenario D (age 55),male,,895,1790
+auto,Lawton,CSAA GENERAL INS. CO.,scenario D (age 55),female,,793,1586
+auto,Lawton,CSAA GENERAL INS. CO.,scenario E (age 70),male,,960,1920
+auto,Lawton,CSAA GENERAL INS. CO.,scenario E (age 70),female,,789,1578
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario A (age 16),male,,4732,9464
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario A (age 16),female,,3429,6858
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario B (age 21),male,,2556,5112
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario B (age 21),female,,2301,4602
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario C (age 36),male,,1411,2822
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario C (age 36),female,,1369,2738
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario D (age 55),male,,1315,2630
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario D (age 55),female,,1363,2726
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario E (age 70),male,,1652,3304
+auto,Lawton,EQUITY INSURANCE COMPANY,scenario E (age 70),female,,1602,3204
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),male,,3709,7418
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),female,,2880,5760
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),male,,1627,3254
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),female,,1386,2772
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),male,,777,1554
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),female,,837,1674
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),male,,686,1372
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),female,,691,1382
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),male,,593,1186
+auto,Lawton,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),female,,634,1268
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),male,,3499,6998
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),female,,3370,6740
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),male,,1279,2558
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),female,,1231,2462
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),male,,725,1450
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),female,,707,1414
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),male,,643,1286
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),female,,640,1280
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),male,,655,1310
+auto,Lawton,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),female,,658,1316
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),male,,1669,3338
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),female,,1694,3388
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),male,,548,1096
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),female,,554,1108
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),male,,342,684
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),female,,342,684
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),male,,322,644
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),female,,322,644
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),male,,335,670
+auto,Lawton,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),female,,335,670
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),male,,3728,7456
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),female,,2325,4650
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),male,,2151,4302
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),female,,1605,3210
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),male,,983,1966
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),female,,983,1966
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),male,,885,1770
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),female,,885,1770
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),male,,801,1602
+auto,Lawton,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),female,,801,1602
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),male,,3852,7704
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),female,,3408,6816
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),male,,1549,3098
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),female,,1341,2682
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),male,,953,1906
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),female,,912,1824
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),male,,800,1600
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),female,,722,1444
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),male,,766,1532
+auto,Lawton,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),female,,711,1422
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),male,,3969,7938
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),female,,3473,6946
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),male,,1482,2964
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),female,,1200,2400
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),male,,921,1842
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),female,,815,1630
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),male,,677,1354
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),female,,602,1204
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),male,,636,1272
+auto,Lawton,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),female,,560,1120
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),male,,1593,3186
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),female,,1466,2932
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),male,,831,1662
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),female,,785,1570
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),male,,494,988
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),female,,465,930
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),male,,505,1010
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),female,,474,948
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),male,,489,978
+auto,Lawton,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),female,,444,888
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),male,,2004,4008
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),female,,1468,2936
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),male,,1299,2598
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),female,,1064,2128
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),male,,632,1264
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),female,,628,1256
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),male,,519,1038
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),female,,492,984
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),male,,511,1022
+auto,Lawton,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),female,,489,978
+auto,Lawton,STANDARD FIRE INS. CO.,scenario A (age 16),male,,3503,7006
+auto,Lawton,STANDARD FIRE INS. CO.,scenario A (age 16),female,,2778,5556
+auto,Lawton,STANDARD FIRE INS. CO.,scenario B (age 21),male,,1622,3244
+auto,Lawton,STANDARD FIRE INS. CO.,scenario B (age 21),female,,1383,2766
+auto,Lawton,STANDARD FIRE INS. CO.,scenario C (age 36),male,,1065,2130
+auto,Lawton,STANDARD FIRE INS. CO.,scenario C (age 36),female,,1011,2022
+auto,Lawton,STANDARD FIRE INS. CO.,scenario D (age 55),male,,847,1694
+auto,Lawton,STANDARD FIRE INS. CO.,scenario D (age 55),female,,800,1600
+auto,Lawton,STANDARD FIRE INS. CO.,scenario E (age 70),male,,916,1832
+auto,Lawton,STANDARD FIRE INS. CO.,scenario E (age 70),female,,832,1664
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),male,,950,1900
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),female,,953,1906
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),male,,1769,3538
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),female,,1788,3576
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),male,,1498,2996
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),female,,1512,3024
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),male,,1415,2830
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),female,,1416,2832
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),male,,652,1304
+auto,Lawton,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),female,,685,1370
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),male,,698,1396
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),female,,700,1400
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),male,,1299,2598
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),female,,1313,2626
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),male,,1100,2200
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),female,,1111,2222
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),male,,1039,2078
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),female,,1040,2080
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),male,,479,958
+auto,Lawton,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),female,,503,1006
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario A (age 16),male,,4365,8730
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario A (age 16),female,,3376,6752
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario B (age 21),male,,3108,6216
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario B (age 21),female,,2335,4670
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario C (age 36),male,,1040,2080
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario C (age 36),female,,1021,2042
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario D (age 55),male,,1018,2036
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario D (age 55),female,,966,1932
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario E (age 70),male,,1212,2424
+auto,Lawton,TRADERS INSURANCE COMPANY,scenario E (age 70),female,,1118,2236
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),male,,3044,6088
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),female,,2900,5800
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),male,,1147,2294
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),female,,1079,2158
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),male,,644,1288
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),female,,637,1274
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),male,,588,1176
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),female,,585,1170
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),male,,599,1198
+auto,Lawton,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),female,,606,1212
+auto,Lawton,USAA CASUALTY INS. CO.,scenario A (age 16),male,,3087,6174
+auto,Lawton,USAA CASUALTY INS. CO.,scenario A (age 16),female,,2982,5964
+auto,Lawton,USAA CASUALTY INS. CO.,scenario B (age 21),male,,1161,2322
+auto,Lawton,USAA CASUALTY INS. CO.,scenario B (age 21),female,,1118,2236
+auto,Lawton,USAA CASUALTY INS. CO.,scenario C (age 36),male,,664,1328
+auto,Lawton,USAA CASUALTY INS. CO.,scenario C (age 36),female,,648,1296
+auto,Lawton,USAA CASUALTY INS. CO.,scenario D (age 55),male,,569,1138
+auto,Lawton,USAA CASUALTY INS. CO.,scenario D (age 55),female,,568,1136
+auto,Lawton,USAA CASUALTY INS. CO.,scenario E (age 70),male,,582,1164
+auto,Lawton,USAA CASUALTY INS. CO.,scenario E (age 70),female,,586,1172
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario A (age 16),male,,4057,8114
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario A (age 16),female,,3906,7812
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario B (age 21),male,,1442,2884
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario B (age 21),female,,1389,2778
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario C (age 36),male,,806,1612
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario C (age 36),female,,787,1574
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario D (age 55),male,,715,1430
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario D (age 55),female,,713,1426
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario E (age 70),male,,731,1462
+auto,Lawton,USAA GENERAL INDEMNITY CO.,scenario E (age 70),female,,736,1472
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),male,,4981,9962
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),female,,4557,9114
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),male,,1660,3320
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),female,,1357,2714
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),male,,898,1796
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),female,,890,1780
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),male,,870,1740
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),female,,823,1646
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),male,,904,1808
+auto,Woodward,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),female,,856,1712
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),male,,2656,5312
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),female,,2554,5108
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),male,,1896,3792
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),female,,1829,3658
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),male,,1312,2624
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),female,,1273,2546
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),male,,1292,2584
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),female,,1255,2510
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),male,,1273,2546
+auto,Woodward,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),female,,1237,2474
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),male,,3420,6840
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),female,,2961,5922
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),male,,2278,4556
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),female,,1767,3534
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),male,,1003,2006
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),female,,996,1992
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),male,,778,1556
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),female,,800,1600
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),male,,828,1656
+auto,Woodward,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),female,,862,1724
+auto,Woodward,CSAA GENERAL INS. CO.,scenario A (age 16),male,,5559,11118
+auto,Woodward,CSAA GENERAL INS. CO.,scenario A (age 16),female,,5680,11360
+auto,Woodward,CSAA GENERAL INS. CO.,scenario B (age 21),male,,1775,3550
+auto,Woodward,CSAA GENERAL INS. CO.,scenario B (age 21),female,,1777,3554
+auto,Woodward,CSAA GENERAL INS. CO.,scenario C (age 36),male,,1198,2396
+auto,Woodward,CSAA GENERAL INS. CO.,scenario C (age 36),female,,1101,2202
+auto,Woodward,CSAA GENERAL INS. CO.,scenario D (age 55),male,,1066,2132
+auto,Woodward,CSAA GENERAL INS. CO.,scenario D (age 55),female,,943,1886
+auto,Woodward,CSAA GENERAL INS. CO.,scenario E (age 70),male,,1130,2260
+auto,Woodward,CSAA GENERAL INS. CO.,scenario E (age 70),female,,928,1856
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario A (age 16),male,,3542,7084
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario A (age 16),female,,2610,5220
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario B (age 21),male,,2006,4012
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario B (age 21),female,,1820,3640
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario C (age 36),male,,1146,2292
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario C (age 36),female,,1124,2248
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario D (age 55),male,,1072,2144
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario D (age 55),female,,1103,2206
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario E (age 70),male,,1297,2594
+auto,Woodward,EQUITY INSURANCE COMPANY,scenario E (age 70),female,,1271,2542
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),male,,3640,7280
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),female,,2783,5566
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),male,,1618,3236
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),female,,1353,2706
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),male,,776,1552
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),female,,820,1640
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),male,,683,1366
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),female,,679,1358
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),male,,586,1172
+auto,Woodward,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),female,,620,1240
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),male,,3313,6626
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),female,,3176,6352
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),male,,1255,2510
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),female,,1199,2398
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),male,,731,1462
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),female,,710,1420
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),male,,648,1296
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),female,,642,1284
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),male,,646,1292
+auto,Woodward,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),female,,646,1292
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),male,,1713,3426
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),female,,1726,3452
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),male,,609,1218
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),female,,608,1216
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),male,,386,772
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),female,,386,772
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),male,,361,722
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),female,,361,722
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),male,,367,734
+auto,Woodward,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),female,,367,734
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),male,,3890,7780
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),female,,2424,4848
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),male,,2260,4520
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),female,,1691,3382
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),male,,1054,2108
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),female,,1054,2108
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),male,,949,1898
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),female,,949,1898
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),male,,852,1704
+auto,Woodward,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),female,,852,1704
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),male,,3542,7084
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),female,,3128,6256
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),male,,1452,2904
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),female,,1259,2518
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),male,,922,1844
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),female,,878,1756
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),male,,773,1546
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),female,,694,1388
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),male,,730,1460
+auto,Woodward,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),female,,676,1352
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),male,,3648,7296
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),female,,3194,6388
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),male,,1413,2826
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),female,,1146,2292
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),male,,912,1824
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),female,,801,1602
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),male,,671,1342
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),female,,593,1186
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),male,,614,1228
+auto,Woodward,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),female,,535,1070
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),male,,1629,3258
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),female,,1498,2996
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),male,,855,1710
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),female,,806,1612
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),male,,508,1016
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),female,,478,956
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),male,,520,1040
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),female,,488,976
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),male,,501,1002
+auto,Woodward,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),female,,455,910
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),male,,1988,3976
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),female,,1456,2912
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),male,,1280,2560
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),female,,1048,2096
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),male,,623,1246
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),female,,619,1238
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),male,,512,1024
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),female,,484,968
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),male,,507,1014
+auto,Woodward,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),female,,485,970
+auto,Woodward,STANDARD FIRE INS. CO.,scenario A (age 16),male,,3338,6676
+auto,Woodward,STANDARD FIRE INS. CO.,scenario A (age 16),female,,2662,5324
+auto,Woodward,STANDARD FIRE INS. CO.,scenario B (age 21),male,,1595,3190
+auto,Woodward,STANDARD FIRE INS. CO.,scenario B (age 21),female,,1359,2718
+auto,Woodward,STANDARD FIRE INS. CO.,scenario C (age 36),male,,1066,2132
+auto,Woodward,STANDARD FIRE INS. CO.,scenario C (age 36),female,,1011,2022
+auto,Woodward,STANDARD FIRE INS. CO.,scenario D (age 55),male,,850,1700
+auto,Woodward,STANDARD FIRE INS. CO.,scenario D (age 55),female,,802,1604
+auto,Woodward,STANDARD FIRE INS. CO.,scenario E (age 70),male,,895,1790
+auto,Woodward,STANDARD FIRE INS. CO.,scenario E (age 70),female,,802,1604
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),male,,1038,2076
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),female,,1041,2082
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),male,,1933,3866
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),female,,1953,3906
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),male,,1636,3272
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),female,,1653,3306
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),male,,1546,3092
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),female,,1547,3094
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),male,,712,1424
+auto,Woodward,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),female,,749,1498
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),male,,762,1524
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),female,,764,1528
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),male,,1419,2838
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),female,,1434,2868
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),male,,1202,2404
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),female,,1214,2428
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),male,,1136,2272
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),female,,1136,2272
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),male,,523,1046
+auto,Woodward,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),female,,550,1100
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario A (age 16),male,,3846,7692
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario A (age 16),female,,2948,5896
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario B (age 21),male,,2967,5934
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario B (age 21),female,,2167,4334
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario C (age 36),male,,962,1924
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario C (age 36),female,,940,1880
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario D (age 55),male,,937,1874
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario D (age 55),female,,875,1750
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario E (age 70),male,,1028,2056
+auto,Woodward,TRADERS INSURANCE COMPANY,scenario E (age 70),female,,1001,2002
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),male,,2828,5656
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),female,,2680,5360
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),male,,1110,2220
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),female,,1035,2070
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),male,,638,1276
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),female,,627,1254
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),male,,583,1166
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),female,,574,1148
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),male,,576,1152
+auto,Woodward,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),female,,579,1158
+auto,Woodward,USAA CASUALTY INS. CO.,scenario A (age 16),male,,2995,5990
+auto,Woodward,USAA CASUALTY INS. CO.,scenario A (age 16),female,,2879,5758
+auto,Woodward,USAA CASUALTY INS. CO.,scenario B (age 21),male,,1166,2332
+auto,Woodward,USAA CASUALTY INS. CO.,scenario B (age 21),female,,1114,2228
+auto,Woodward,USAA CASUALTY INS. CO.,scenario C (age 36),male,,683,1366
+auto,Woodward,USAA CASUALTY INS. CO.,scenario C (age 36),female,,664,1328
+auto,Woodward,USAA CASUALTY INS. CO.,scenario D (age 55),male,,586,1172
+auto,Woodward,USAA CASUALTY INS. CO.,scenario D (age 55),female,,582,1164
+auto,Woodward,USAA CASUALTY INS. CO.,scenario E (age 70),male,,586,1172
+auto,Woodward,USAA CASUALTY INS. CO.,scenario E (age 70),female,,587,1174
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario A (age 16),male,,3937,7874
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario A (age 16),female,,3763,7526
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario B (age 21),male,,1477,2954
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario B (age 21),female,,1407,2814
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario C (age 36),male,,855,1710
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario C (age 36),female,,829,1658
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario D (age 55),male,,759,1518
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario D (age 55),female,,751,1502
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario E (age 70),male,,751,1502
+auto,Woodward,USAA GENERAL INDEMNITY CO.,scenario E (age 70),female,,750,1500
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),male,,5125,10250
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario A (age 16),female,,4649,9298
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),male,,1658,3316
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario B (age 21),female,,1346,2692
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),male,,883,1766
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario C (age 36),female,,879,1758
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),male,,861,1722
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario D (age 55),female,,816,1632
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),male,,901,1802
+auto,McAlester,ALLSTATE FIRE & CASUALTY INS. CO.,scenario E (age 70),female,,854,1708
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),male,,2872,5744
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario A (age 16),female,,2759,5518
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),male,,2034,4068
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario B (age 21),female,,1961,3922
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),male,,1391,2782
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario C (age 36),female,,1349,2698
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),male,,1370,2740
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario D (age 55),female,,1329,2658
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),male,,1349,2698
+auto,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,scenario E (age 70),female,,1309,2618
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),male,,3667,7334
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario A (age 16),female,,3193,6386
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),male,,2396,4792
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario B (age 21),female,,1862,3724
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),male,,1023,2046
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario C (age 36),female,,1028,2056
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),male,,803,1606
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario D (age 55),female,,828,1656
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),male,,869,1738
+auto,McAlester,AMERICAN MERCURY INS. CO. (Mercury Insurance),scenario E (age 70),female,,900,1800
+auto,McAlester,CSAA GENERAL INS. CO.,scenario A (age 16),male,,4727,9454
+auto,McAlester,CSAA GENERAL INS. CO.,scenario A (age 16),female,,4831,9662
+auto,McAlester,CSAA GENERAL INS. CO.,scenario B (age 21),male,,1513,3026
+auto,McAlester,CSAA GENERAL INS. CO.,scenario B (age 21),female,,1515,3030
+auto,McAlester,CSAA GENERAL INS. CO.,scenario C (age 36),male,,1023,2046
+auto,McAlester,CSAA GENERAL INS. CO.,scenario C (age 36),female,,944,1888
+auto,McAlester,CSAA GENERAL INS. CO.,scenario D (age 55),male,,909,1818
+auto,McAlester,CSAA GENERAL INS. CO.,scenario D (age 55),female,,807,1614
+auto,McAlester,CSAA GENERAL INS. CO.,scenario E (age 70),male,,969,1938
+auto,McAlester,CSAA GENERAL INS. CO.,scenario E (age 70),female,,799,1598
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario A (age 16),male,,4109,8218
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario A (age 16),female,,2995,5990
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario B (age 21),male,,2240,4480
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario B (age 21),female,,2024,4048
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario C (age 36),male,,1247,2494
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario C (age 36),female,,1214,2428
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario D (age 55),male,,1164,2328
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario D (age 55),female,,1204,2408
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario E (age 70),male,,1448,2896
+auto,McAlester,EQUITY INSURANCE COMPANY,scenario E (age 70),female,,1409,2818
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),male,,3722,7444
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario A (age 16),female,,2887,5774
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),male,,1635,3270
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario B (age 21),female,,1380,2760
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),male,,782,1564
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario C (age 36),female,,834,1668
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),male,,688,1376
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario D (age 55),female,,688,1376
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),male,,592,1184
+auto,McAlester,FARMERS INSURANCE COMPANY (**Mid-Century Insurance Company),scenario E (age 70),female,,632,1264
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),male,,3689,7378
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario A (age 16),female,,3548,7096
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),male,,1369,2738
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario B (age 21),female,,1314,2628
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),male,,777,1554
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario C (age 36),female,,757,1514
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),male,,690,1380
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario D (age 55),female,,685,1370
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),male,,695,1390
+auto,McAlester,GARRISON PROPERTY & CASUALTY INSURANCE CO.,scenario E (age 70),female,,697,1394
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),male,,1902,3804
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario A (age 16),female,,1909,3818
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),male,,695,1390
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario B (age 21),female,,690,1380
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),male,,438,876
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario C (age 36),female,,438,876
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),male,,409,818
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario D (age 55),female,,409,818
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),male,,413,826
+auto,McAlester,GEICO SECURE INS. CO. (*GEICO CASUALTY CO.),scenario E (age 70),female,,413,826
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),male,,3732,7464
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario A (age 16),female,,2324,4648
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),male,,2151,4302
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario B (age 21),female,,1597,3194
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),male,,967,1934
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario C (age 36),female,,967,1934
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),male,,870,1740
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario D (age 55),female,,870,1740
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),male,,793,1586
+auto,McAlester,OKLAHOMA FARM BUREAU MUTUAL INS. CO.,scenario E (age 70),female,,793,1586
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),male,,3599,7198
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario A (age 16),female,,3192,6384
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),male,,1418,2836
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario B (age 21),female,,1224,2448
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),male,,842,1684
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario C (age 36),female,,812,1624
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),male,,712,1424
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario D (age 55),female,,651,1302
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),male,,697,1394
+auto,McAlester,PROGRESSIVE DIRECT INS. CO.,scenario E (age 70),female,,656,1312
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),male,,3834,7668
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario A (age 16),female,,3351,6702
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),male,,1421,2842
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario B (age 21),female,,1144,2288
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),male,,869,1738
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario C (age 36),female,,772,1544
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),male,,639,1278
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario D (age 55),female,,570,1140
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),male,,608,1216
+auto,McAlester,PROGRESSIVE NORTHERN INS. CO.,scenario E (age 70),female,,536,1072
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),male,,1839,3678
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario A (age 16),female,,1687,3374
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),male,,947,1894
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario B (age 21),female,,892,1784
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),male,,557,1114
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario C (age 36),female,,522,1044
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),male,,570,1140
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario D (age 55),female,,534,1068
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),male,,550,1100
+auto,McAlester,SAFECO INSURANCE CO. OF AMERICA,scenario E (age 70),female,,497,994
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),male,,2006,4012
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario A (age 16),female,,1470,2940
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),male,,1297,2594
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario B (age 21),female,,1062,2124
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),male,,631,1262
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario C (age 36),female,,627,1254
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),male,,519,1038
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario D (age 55),female,,491,982
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),male,,511,1022
+auto,McAlester,SHELTER MUTUAL INSURANCE CO.,scenario E (age 70),female,,489,978
+auto,McAlester,STANDARD FIRE INS. CO.,scenario A (age 16),male,,3488,6976
+auto,McAlester,STANDARD FIRE INS. CO.,scenario A (age 16),female,,2757,5514
+auto,McAlester,STANDARD FIRE INS. CO.,scenario B (age 21),male,,1595,3190
+auto,McAlester,STANDARD FIRE INS. CO.,scenario B (age 21),female,,1359,2718
+auto,McAlester,STANDARD FIRE INS. CO.,scenario C (age 36),male,,1048,2096
+auto,McAlester,STANDARD FIRE INS. CO.,scenario C (age 36),female,,995,1990
+auto,McAlester,STANDARD FIRE INS. CO.,scenario D (age 55),male,,835,1670
+auto,McAlester,STANDARD FIRE INS. CO.,scenario D (age 55),female,,789,1578
+auto,McAlester,STANDARD FIRE INS. CO.,scenario E (age 70),male,,905,1810
+auto,McAlester,STANDARD FIRE INS. CO.,scenario E (age 70),female,,821,1642
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),male,,813,1626
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario A (age 16),female,,815,1630
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),male,,1513,3026
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario B (age 21),female,,1529,3058
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),male,,1281,2562
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario C (age 36),female,,1294,2588
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),male,,1210,2420
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario D (age 55),female,,1211,2422
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),male,,557,1114
+auto,McAlester,STATE FARM FIRE & CASUALTY CO.,scenario E (age 70),female,,586,1172
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),male,,597,1194
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario A (age 16),female,,598,1196
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),male,,1111,2222
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario B (age 21),female,,1123,2246
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),male,,941,1882
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario C (age 36),female,,950,1900
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),male,,889,1778
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario D (age 55),female,,890,1780
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),male,,409,818
+auto,McAlester,STATE FARM MUTUAL AUTOMOBILE INS. CO.,scenario E (age 70),female,,431,862
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario A (age 16),male,,4379,8758
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario A (age 16),female,,3380,6760
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario B (age 21),male,,3233,6466
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario B (age 21),female,,2389,4778
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario C (age 36),male,,1050,2100
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario C (age 36),female,,1033,2066
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario D (age 55),male,,1032,2064
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario D (age 55),female,,973,1946
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario E (age 70),male,,1151,2302
+auto,McAlester,TRADERS INSURANCE COMPANY,scenario E (age 70),female,,1125,2250
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),male,,3146,6292
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario A (age 16),female,,2989,5978
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),male,,1206,2412
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario B (age 21),female,,1129,2258
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),male,,681,1362
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario C (age 36),female,,672,1344
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),male,,622,1244
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario D (age 55),female,,616,1232
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),male,,624,1248
+auto,McAlester,UNITED SERVICES AUTOMOBILE ASSN. (*USAA),scenario E (age 70),female,,629,1258
+auto,McAlester,USAA CASUALTY INS. CO.,scenario A (age 16),male,,3204,6408
+auto,McAlester,USAA CASUALTY INS. CO.,scenario A (age 16),female,,3090,6180
+auto,McAlester,USAA CASUALTY INS. CO.,scenario B (age 21),male,,1222,2444
+auto,McAlester,USAA CASUALTY INS. CO.,scenario B (age 21),female,,1173,2346
+auto,McAlester,USAA CASUALTY INS. CO.,scenario C (age 36),male,,701,1402
+auto,McAlester,USAA CASUALTY INS. CO.,scenario C (age 36),female,,684,1368
+auto,McAlester,USAA CASUALTY INS. CO.,scenario D (age 55),male,,602,1204
+auto,McAlester,USAA CASUALTY INS. CO.,scenario D (age 55),female,,599,1198
+auto,McAlester,USAA CASUALTY INS. CO.,scenario E (age 70),male,,608,1216
+auto,McAlester,USAA CASUALTY INS. CO.,scenario E (age 70),female,,611,1222
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario A (age 16),male,,4413,8826
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario A (age 16),female,,4236,8472
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario B (age 21),male,,1600,3200
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario B (age 21),female,,1535,3070
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario C (age 36),male,,905,1810
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario C (age 36),female,,882,1764
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario D (age 55),male,,802,1604
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario D (age 55),female,,798,1596
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario E (age 70),male,,809,1618
+auto,McAlester,USAA GENERAL INDEMNITY CO.,scenario E (age 70),female,,812,1624
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2507
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2342
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5025
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4660
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7698
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7144
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,10370
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,9627
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,13042
+home,Oklahoma City,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,12112
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1280
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1269
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1543
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1528
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,1749
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,1730
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,1935
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,1913
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,2103
+home,Oklahoma City,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,2079
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4720
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4625
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6747
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6611
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7929
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7770
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,9473
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,9170
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10734
+home,Oklahoma City,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10517
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2293
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2077
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3479
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3151
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4658
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4222
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6512
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5900
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8224
+home,Oklahoma City,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7451
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2335
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2227
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3851
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3670
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5177
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4933
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6335
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6039
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6865
+home,Oklahoma City,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6555
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2571
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2560
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2943
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2923
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3357
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3328
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3759
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3721
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3889
+home,Oklahoma City,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3844
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1557
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1557
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2471
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2471
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3388
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3388
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4268
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4268
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5132
+home,Oklahoma City,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5129
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3029
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2948
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4204
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4079
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5047
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4888
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5764
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5575
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6320
+home,Oklahoma City,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6105
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,5069
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,5303
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6102
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6375
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7881
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,8211
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,9196
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,9584
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10365
+home,Oklahoma City,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10809
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1662
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1619
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2126
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2067
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2768
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2693
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3324
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3231
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3937
+home,Oklahoma City,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3826
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1079
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1129
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1719
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1819
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2360
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2509
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3001
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3200
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3638
+home,Oklahoma City,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3886
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4461
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,5097
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5455
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6216
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7075
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,8121
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8360
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,9534
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9551
+home,Oklahoma City,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10813
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2406
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2164
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3389
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3049
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4618
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4154
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6438
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5791
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8285
+home,Oklahoma City,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7453
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3410
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3190
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5222
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4887
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7262
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6796
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,9304
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8706
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,11098
+home,Oklahoma City,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10385
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4855
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4757
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6940
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6800
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,8156
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7992
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,9743
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,9432
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,11040
+home,Oklahoma City,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10818
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2511
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2465
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4333
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4251
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6107
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5990
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8024
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7870
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9479
+home,Oklahoma City,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9295
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3687
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3271
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5609
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4903
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6972
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6063
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8144
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7064
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9143
+home,Oklahoma City,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7920
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3025
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3136
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4456
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4657
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5807
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6097
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7054
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7432
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8056
+home,Oklahoma City,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8522
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2913
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3019
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4317
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4511
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5647
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5928
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6877
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7242
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7871
+home,Oklahoma City,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8322
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3293
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3424
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4909
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,5150
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6446
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6796
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7867
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8325
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9013
+home,Oklahoma City,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9579
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1987
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1856
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3875
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3593
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5983
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5587
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8091
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7584
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10198
+home,Tulsa,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9578
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1068
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1059
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1236
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1223
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,1374
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,1358
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,1466
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,1448
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,1613
+home,Tulsa,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,1594
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4379
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4291
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6262
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6138
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7358
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7212
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8684
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8510
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9961
+home,Tulsa,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9761
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1934
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1753
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2935
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2662
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3935
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3571
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5497
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4987
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6942
+home,Tulsa,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6297
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1864
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1783
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2967
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2837
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3951
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3779
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4827
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4619
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5280
+home,Tulsa,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5062
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2176
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2167
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2431
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2417
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2695
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2675
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2961
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2934
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3023
+home,Tulsa,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,2991
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1413
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1413
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2209
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2205
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3017
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3011
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3803
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3795
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,4580
+home,Tulsa,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,4570
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2659
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2587
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3634
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3524
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4299
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4157
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4847
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4680
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5255
+home,Tulsa,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5055
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2696
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2813
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3311
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3457
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4361
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4545
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5124
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5345
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5813
+home,Tulsa,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6073
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1334
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1309
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1669
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1634
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2148
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2103
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2546
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2490
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3025
+home,Tulsa,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,2951
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,973
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1015
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1507
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1590
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2039
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2164
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2575
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2740
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3107
+home,Tulsa,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3313
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3276
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3598
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4055
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4432
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5238
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5759
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6271
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6843
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7269
+home,Tulsa,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7868
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1995
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1794
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2810
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2528
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3829
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3443
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5338
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4801
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6870
+home,Tulsa,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6178
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2674
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2503
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4098
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3836
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5700
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5335
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7301
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6834
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8709
+home,Tulsa,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8153
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4505
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4414
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6440
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6313
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7568
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7418
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8933
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8753
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10245
+home,Tulsa,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10040
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1898
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1862
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3277
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3214
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4620
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4531
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6071
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5954
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7172
+home,Tulsa,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7034
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3006
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2675
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4544
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3987
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5636
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4920
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6577
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5726
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7382
+home,Tulsa,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6415
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2997
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3062
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4279
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4369
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5460
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5572
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6540
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6672
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7412
+home,Tulsa,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7563
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2881
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2943
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4144
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4229
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5312
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5418
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6382
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6509
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7252
+home,Tulsa,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7397
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3187
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3254
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4615
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4711
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5945
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6066
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7165
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7310
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8151
+home,Tulsa,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8320
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1911
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1788
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3709
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3440
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5740
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5359
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7773
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7279
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9805
+home,Lawton,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9199
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1162
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1151
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1381
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1381
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,1564
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,1543
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,1717
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,1693
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,1907
+home,Lawton,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,1881
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4466
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4377
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6384
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6258
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7503
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7354
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8856
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8678
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10156
+home,Lawton,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9954
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1878
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1703
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2850
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2585
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3821
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3469
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5338
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4843
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6741
+home,Lawton,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6116
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2908
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2770
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4943
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4704
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6718
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6393
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8263
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7866
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8951
+home,Lawton,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8536
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2684
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2679
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3003
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2994
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3373
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3359
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3716
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3699
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3743
+home,Lawton,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3722
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1774
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1770
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2797
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2789
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3848
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3835
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4867
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4850
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5883
+home,Lawton,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5859
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2767
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2671
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3920
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3772
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4768
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4579
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5488
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5265
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6061
+home,Lawton,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5808
+home,Lawton,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3435
+home,Lawton,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3547
+home,Lawton,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4257
+home,Lawton,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4399
+home,Lawton,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5736
+home,Lawton,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5922
+home,Lawton,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6720
+home,Lawton,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6944
+home,Lawton,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7618
+home,Lawton,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7881
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1690
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1644
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2168
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2105
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2828
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2746
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,3401
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,3300
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,4035
+home,Lawton,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3914
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1027
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1072
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1613
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1704
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2198
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2335
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2784
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2966
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3370
+home,Lawton,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3596
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3320
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3763
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4170
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4681
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5521
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6209
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6610
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7366
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7670
+home,Lawton,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8455
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2550
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2294
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3594
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3233
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4897
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4405
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6826
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6140
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8785
+home,Lawton,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7902
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3099
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2911
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4747
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4460
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6602
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6203
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8457
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7946
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10088
+home,Lawton,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9479
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4594
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4502
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6567
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6437
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7718
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7565
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,9109
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8925
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10447
+home,Lawton,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,10238
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2147
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2106
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3704
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3633
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5220
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5119
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6860
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6726
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8102
+home,Lawton,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7945
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3731
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3306
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5683
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4964
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7071
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6146
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8264
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7163
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9281
+home,Lawton,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8032
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3407
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3456
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4940
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,5007
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6376
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6459
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7692
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7790
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8747
+home,Lawton,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8859
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3225
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3301
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4748
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4812
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6151
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6230
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7440
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7535
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8477
+home,Lawton,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8587
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3660
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3710
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,5363
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,5437
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6971
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7065
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8449
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8562
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9632
+home,Lawton,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9764
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2051
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1917
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4017
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3722
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6200
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5753
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8382
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7787
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10565
+home,McAlester,ALLSTATE INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9819
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1465
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1451
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1832
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1811
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2281
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2256
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2868
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2839
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3863
+home,McAlester,ALLSTATE VEHICLE & PROPERTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3831
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4275
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4192
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6114
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,5992
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7185
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7042
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8479
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8311
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9727
+home,McAlester,AMERICAN ECONOMY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9533
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1982
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1797
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3008
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2728
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4032
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3659
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5633
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5109
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7114
+home,McAlester,AMERICAN FARMERS & RANCHERS MUTUAL INS. CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6452
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1928
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1848
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3088
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2959
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4131
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3961
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,5067
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4861
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5583
+home,McAlester,AMERICAN MERCURY INSURANCE CO. (Mercury Insurance),"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5367
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2061
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2050
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2331
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2310
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2608
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2579
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2882
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2844
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,2968
+home,McAlester,AMERICAN STRATEGIC INSURANCE CORP.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,2922
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1769
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1737
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,2761
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,2693
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,3849
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,3738
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4968
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4814
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,6129
+home,McAlester,CSAA GENERAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5927
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2490
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2394
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3532
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3384
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4297
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4109
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4944
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,4721
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5461
+home,McAlester,ENCOMPASS INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5208
+home,McAlester,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2417
+home,McAlester,FARMERS INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2500
+home,McAlester,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3028
+home,McAlester,FARMERS INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3136
+home,McAlester,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4102
+home,McAlester,FARMERS INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4245
+home,McAlester,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,4828
+home,McAlester,FARMERS INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5002
+home,McAlester,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,5509
+home,McAlester,FARMERS INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,5717
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1401
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1363
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1793
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1740
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2331
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2264
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2800
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2717
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3351
+home,McAlester,HOMESITE INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3251
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,962
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,995
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,1482
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,1549
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,2003
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,2102
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,2523
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,2656
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,3042
+home,McAlester,LIBERTY MUTUAL PERSONAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,3209
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2827
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3184
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3666
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4056
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4961
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5468
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6025
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6558
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7082
+home,McAlester,MID-CENTURY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7602
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2502
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2251
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3526
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3171
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4804
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4321
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6697
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6024
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8618
+home,McAlester,NORTH STAR MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7752
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2788
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2609
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4272
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3999
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5941
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5561
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7610
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7123
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,9078
+home,McAlester,OKLAHOMA FARM BUREAU MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8498
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,4397
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,4311
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,6288
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,6264
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,7390
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,7243
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,8722
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,8548
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,10005
+home,McAlester,SAFECO INSURANCE CO. OF AMERICA,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,9806
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,1993
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,1956
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,3440
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,3375
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,4850
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,4757
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6373
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6250
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7529
+home,McAlester,SHELTER MUTUAL INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7383
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3059
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2716
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4626
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4049
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5753
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5010
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6720
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,5836
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7549
+home,McAlester,STATE FARM FIRE AND CASUALTY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,6542
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3065
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3110
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4520
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4571
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5873
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5925
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7131
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7185
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8209
+home,McAlester,UNITED SERVICES AUTOMOBILE ASSOCIATION,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8264
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,2927
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,2970
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4336
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4385
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,5648
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,5702
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,6871
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,6927
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,7920
+home,McAlester,USAA CASUALTY INSURANCE CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,7978
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,frame,,3198
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 1 (dwelling $100,000, deductible 1%)",,masonry,,3246
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,frame,,4748
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 2 (dwelling $200,000, deductible 1%)",,masonry,,4808
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,frame,,6198
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 3 (dwelling $300,000, deductible 1%)",,masonry,,6266
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,frame,,7546
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 4 (dwelling $400,000, deductible 1%)",,masonry,,7622
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,frame,,8694
+home,McAlester,USAA GENERAL INDEMNITY CO.,"scenario 5 (dwelling $500,000, deductible 1%)",,masonry,,8776

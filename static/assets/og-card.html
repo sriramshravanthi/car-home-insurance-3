@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{ margin:0; padding:0; width:1200px; height:630px; overflow:hidden; }
+  body{
+    position: relative;
+    background:
+      radial-gradient(circle at 15% 15%, rgba(232,182,90,0.55), transparent 42%),
+      radial-gradient(circle at 88% 25%, rgba(29,78,216,0.5), transparent 46%),
+      radial-gradient(circle at 60% 92%, rgba(22,163,116,0.55), transparent 46%),
+      linear-gradient(160deg, #0C1B15, #060F0C);
+    font-family: Georgia, "Times New Roman", serif;
+    color: #F3F1EA;
+  }
+  .grid-overlay{
+    position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+    -webkit-mask-image: radial-gradient(70% 60% at 30% 20%, black, transparent);
+  }
+  .card{
+    position: relative; z-index: 1;
+    width: 1200px; height: 630px;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 0 90px;
+    box-sizing: border-box;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:10px;
+    font-family: "IBM Plex Mono", "Courier New", monospace;
+    font-size: 20px; letter-spacing: 3px; text-transform: uppercase;
+    color: #E8B65A; margin-bottom: 26px; font-weight:700;
+  }
+  .eyebrow::before{ content:""; width:10px; height:10px; border-radius:50%; background:#E8B65A; }
+  h1{
+    font-size: 68px; line-height: 1.08; font-weight: 600; margin: 0 0 26px; letter-spacing: -0.01em;
+    max-width: 920px;
+  }
+  h1 em{ color: #E8B65A; font-style: italic; font-weight: 500; }
+  p{
+    font-family: Georgia, serif; font-size: 28px; color: #D8D4C8; margin: 0; max-width: 820px; line-height: 1.5;
+  }
+  .brand{
+    position: absolute; top: 56px; left: 90px; z-index: 2;
+    font-family: Georgia, serif; font-weight: 700; font-size: 30px; letter-spacing: -0.01em; color: #F3F1EA;
+  }
+  .brand .dot{ color: #E8B65A; }
+  .badges{
+    position: absolute; bottom: 56px; left: 90px; z-index: 2; display: flex; gap: 14px;
+  }
+  .badge{
+    font-family: "IBM Plex Mono", "Courier New", monospace; font-size: 18px; font-weight: 600;
+    color: #0C1B15; background: #F3F1EA; padding: 10px 20px; border-radius: 999px;
+  }
+</style>
+</head>
+<body>
+  <div class="grid-overlay"></div>
+  <div class="brand">Coverage Check<span class="dot">.</span></div>
+  <div class="card">
+    <div class="eyebrow">Free &middot; No account &middot; No obligation</div>
+    <h1>Insurance advice you can <em>actually</em> verify.</h1>
+    <p>Check your car and home insurance price and coverage against real published benchmarks &mdash; in your browser, with no sales pitch.</p>
+  </div>
+  <div class="badges">
+    <div class="badge">1,800+ real prices tested</div>
+    <div class="badge">50 states + D.C.</div>
+    <div class="badge">0 ads or lead forms</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility statement | Coverage Check</title>
+<meta name="description" content="What has and has not been tested for accessibility, and how to report a problem.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,560;0,9..144,680&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/home.css">
+</head>
+<body>
+<a class="sx-skip" href="#main">Skip to content</a>
+<header class="sx-header"><div class="sx-bar"><a class="sx-brand" href="index.html">Coverage Check</a><nav class="sx-nav" aria-label="Main"><button type="button" class="sx-nav-toggle" aria-expanded="false" aria-controls="sx-nav-menu"><span class="sx-nav-toggle-bars" aria-hidden="true"></span><span class="sx-vh">Menu</span></button><ul id="sx-nav-menu"><li><a href="index.html">Home</a></li><li><a href="car.html">Car insurance</a></li><li><a href="home.html">Home insurance</a></li><li><a href="compare.html">Compare companies</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="about.html">About</a></li><li><a class="sx-nav-cta" href="/tool.html">Get your free check</a></li></ul></nav></div></header>
+<main class="sx-main" id="main">
+<h1>Accessibility statement</h1>
+<div class="sx-note warn reveal"><p><strong>Draft for review.</strong> Update this statement after manual testing, and have your lawyer review the wording and any legal commitments.</p></div>
+<p>We want this site to work for everyone, including people who use screen readers, keyboards, magnification, or high-contrast settings.</p>
+<h2 class="reveal">What has been checked</h2>
+<ul class="reveal">
+<li>An automated scan (axe-core 4.10.2, WCAG 2 A/AA plus best-practice rules) of all 14 top-level pages — including <code>tool.html</code>'s and <code>quick-check/</code>'s initial load — in both light and dark theme (28 scans total) found 3 issues, all now fixed: a dark-theme contrast failure on an unstyled link, two hero sections not contained by a landmark, and a mobile layout overflowing at 320px wide. A follow-up scan after the fixes came back with zero violations.</li>
+<li>The colour palette meets the WCAG AA text-contrast ratio of 4.5 to 1 in light and dark themes, confirmed by the automated scan above (not just by calculation).</li>
+<li>Reflow at 320px and 390px (phone), 768px and 834px (tablet), and 1280px (desktop) — no sideways scrolling on any of the 14 pages at any of these widths after the fix above.</li>
+<li>Keyboard focus is visible: spot-checked with simulated real Tab key presses (not just programmatic focus, which does not reliably trigger the same browser behaviour) across the homepage's interactive elements, including the new persona links and mobile menu button — every stop showed a visible outline.</li>
+<li>Pages have a skip link, a single main heading, and labelled navigation — including <code>quick-check/</code>, which was missing its skip link until this pass; it's now first in tab order, hidden until focused, and verified to jump past the sticky header to the main content. With JavaScript disabled, all 12 informational pages were re-checked at a 390px-wide viewport: the full navigation list stays visible and usable (never collapsed behind a non-functional button), and no animated element is left stuck invisible.</li>
+<li>Printing: checked with both the "print background graphics" browser setting on and off, since most browsers default it off. That default found a real problem introduced by the redesign — gradient-styled headings and the dark hero/CTA sections used light text with no solid fallback colour, which would have printed as blank or unreadable with backgrounds off. Fixed with print-specific overrides forcing solid black text and no gradients; re-checked clean. The header, footer, sticky mobile button and decorative background effects are hidden when printing, on every page including <code>quick-check/</code> (which had no print handling before this pass).</li>
+</ul>
+<h2 class="reveal">What has not been checked</h2>
+<ul class="reveal">
+<li>Manual testing with screen readers such as VoiceOver, NVDA or JAWS.</li>
+<li>Voice control, and a person walking through every screen of the tool by keyboard alone.</li>
+<li>Safari and Firefox, real phones and tablets, and zoom to 200% and 400%. Only Chromium was tested.</li>
+<li>Automated scans cannot find every problem; many need a person to test.</li>
+</ul>
+<h2 class="reveal">Report a problem</h2>
+<p>Email <strong>[[CONTACT EMAIL]]</strong> with the page, your device and browser, and any assistive technology you use. We will [[state your response commitment]].</p>
+<p class="sx-small">Last reviewed October 1, 2026.</p>
+</main>
+<footer class="sx-footer"><div class="sx-foot"><ul><li><a href="tool.html">Try the tool</a></li><li><a href="resources.html">Downloads</a></li><li><a href="/quick-check/">Quick check</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="accessibility.html" aria-current="page">Accessibility</a></li><li><a href="sources.html">Sources</a></li><li><a href="contact.html">Contact</a></li></ul><p><strong>Not a quote and not insurance advice.</strong> Coverage Check is an educational tool. It does not sell, broker or bind insurance, and it does not replace a licensed agent or your state insurance department.</p><p>&copy; [[COMPANY NAME]] &middot; Data and model last updated September 29, 2026.</p></div></footer>
+<script src="assets/home.js"></script>
+</body>
+</html>

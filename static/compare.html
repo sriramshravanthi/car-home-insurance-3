@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare car and home insurance companies | Coverage Check</title>
+<meta name="description" content="See how major insurers compare on published average rates for car and home insurance, which company fits your situation, and what to check before you buy.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --navy-deep:#061225; --navy:#0B1E3D; --navy-mid:#122A52;
+  --ink:#0F172A; --muted:#51607A; --line:#DFE4EA; --line-soft:#EDF1F5;
+  --surface:#FFFFFF; --surface-alt:#F4F6F9;
+  /* --accent is for TEXT (links, borders) against the page surface; --accent-btn is
+     for BUTTON BACKGROUNDS that carry white text on top. In light mode these can
+     share one value (both are "vs white" checks), but in dark mode text wants a
+     brighter blue against a dark surface while a button-with-white-text needs a
+     darker one — same hue, opposite lightness needs, hence two variables. */
+  --accent:#1D4ED8; --accent-bright:#1842C0; --accent-tint:#E8EFFE;
+  --accent-btn:#1D4ED8; --accent-btn-hover:#1842C0;
+  --good:#0ca30c; --good-tint:#E3F6E3; --warn:#fab219; --warn-tint:#FFF3DC; --critical:#d03b3b; --critical-tint:#FBE6E6;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+  --sans:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --ease: cubic-bezier(.2,.7,.2,1);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --navy-deep:#05070C; --navy:#0A1424; --navy-mid:#0F1C33;
+    --ink:#E7ECF4; --muted:#9FADC2; --line:#243247; --line-soft:#1A2436;
+    --surface:#121B2C; --surface-alt:#0D1522;
+    --accent:#5B8DF0; --accent-bright:#7FA6F5; --accent-tint:#152542;
+    --accent-btn:#2F5FE0; --accent-btn-hover:#1D4ED8;
+    --good:#3FCB4C; --good-tint:#113A17; --warn:#F4B63F; --warn-tint:#3A2D0E; --critical:#F0756B; --critical-tint:#3A1716;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface-alt);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55}
+.skip{position:absolute;left:-9999px;top:0;background:var(--accent-btn);color:#fff;padding:10px 16px;z-index:200;font-weight:700;border-radius:0 0 6px 0}
+.skip:focus{left:0}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* ---------- header ---------- */
+.topbar{background:var(--navy);color:#fff;font-family:var(--mono);font-size:.78rem;letter-spacing:.02em;padding:7px 0;text-align:center}
+.topbar b{color:var(--warn)}
+header.site{background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:40}
+.bar{display:flex;align-items:center;gap:18px;padding:14px 24px;max-width:1180px;margin:0 auto}
+.brand{color:#fff;font-weight:800;letter-spacing:-.01em;font-size:1.15rem;text-decoration:none;display:flex;align-items:center;gap:9px}
+.brand .mark{width:26px;height:26px;border-radius:7px;background:var(--accent-btn);display:inline-flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:800;font-size:.78rem;color:#fff}
+nav.main{display:flex;gap:2px;margin-left:8px;flex-wrap:wrap}
+nav.main a{color:#C9D3E4;text-decoration:none;font-size:.92rem;font-weight:600;padding:9px 12px;border-radius:7px}
+nav.main a:hover{background:rgba(255,255,255,.08);color:#fff}
+nav.main a.current{background:rgba(255,255,255,.12);color:#fff}
+.bar .cta{margin-left:auto;background:var(--accent-btn);color:#fff;font-weight:700;font-size:.9rem;padding:10px 16px;border-radius:8px;text-decoration:none;white-space:nowrap}
+.bar .cta:hover{background:var(--accent-btn-hover)}
+.navtoggle{display:none;background:transparent;border:0;color:#fff;width:40px;height:40px;border-radius:7px;cursor:pointer}
+.navtoggle:hover{background:rgba(255,255,255,.08)}
+.navtoggle .bars,.navtoggle .bars::before,.navtoggle .bars::after{content:"";display:block;width:20px;height:2px;background:#fff;border-radius:2px}
+.navtoggle .bars{position:relative;margin:0 auto}
+.navtoggle .bars::before{position:absolute;top:-6px;left:0}
+.navtoggle .bars::after{position:absolute;top:6px;left:0}
+@media (max-width:860px){
+  nav.main{display:none}
+  .navtoggle{display:inline-flex;align-items:center;justify-content:center}
+  .bar{flex-wrap:wrap}
+  .bar.open nav.main{display:flex;flex-direction:column;width:100%;order:3;padding-top:8px;border-top:1px solid rgba(255,255,255,.1);margin-top:8px}
+  .bar .cta{margin-left:0;order:2}
+}
+
+/* ---------- hero ---------- */
+.hero{background:linear-gradient(180deg,var(--navy),var(--navy-deep));color:#fff;padding:52px 0 44px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:42px 42px;-webkit-mask-image:radial-gradient(70% 90% at 25% 0%,black,transparent);mask-image:radial-gradient(70% 90% at 25% 0%,black,transparent)}
+.hero-in{position:relative;max-width:760px}
+.eyebrow{font-family:var(--mono);font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;color:#8FB2FF;margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--good)}
+h1{font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.12;margin:0 0 14px;letter-spacing:-.015em;font-weight:800}
+.hero p.lede{color:#C9D3E4;font-size:1.05rem;max-width:62ch;margin:0 0 6px}
+.hero .note{color:#8291AA;font-size:.86rem;margin:14px 0 0}
+
+/* ---------- layout shell ---------- */
+main{padding:0 0 60px}
+.panelwrap{max-width:1180px;margin:-26px auto 0;padding:0 24px;position:relative;z-index:2}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:22px;align-items:start}
+@media (max-width:920px){.grid{grid-template-columns:1fr}}
+
+/* ---------- form panel ---------- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(10,20,40,.04),0 10px 30px -14px rgba(10,20,40,.18)}
+.formcard{padding:22px}
+.formcard h2{font-size:1.05rem;margin:0 0 4px}
+.formcard .sub{color:var(--muted);font-size:.86rem;margin:0 0 18px}
+.typeswitch{display:flex;background:var(--surface-alt);border:1px solid var(--line);border-radius:10px;padding:4px;margin-bottom:18px}
+.typeswitch button{flex:1;font:inherit;font-weight:700;font-size:.9rem;border:0;background:transparent;color:var(--muted);padding:9px 10px;border-radius:7px;cursor:pointer}
+.typeswitch button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.f{margin-bottom:14px}
+.f label{display:block;font-size:.84rem;font-weight:700;margin-bottom:5px;color:var(--ink)}
+.f .hint{display:block;color:var(--muted);font-size:.78rem;margin-top:3px;font-weight:400}
+select,input[type=number]{width:100%;font:inherit;font-size:.94rem;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:8px;padding:9px 10px;min-height:42px}
+select:focus,input:focus{outline:3px solid var(--accent-tint);border-color:var(--accent)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.radiogroup{display:grid;gap:6px}
+.radiogroup label{display:flex;align-items:center;gap:8px;font-size:.88rem;font-weight:500;color:var(--ink);cursor:pointer;padding:7px 9px;border:1.5px solid var(--line);border-radius:8px}
+.radiogroup input{accent-color:var(--accent)}
+.radiogroup label:has(input:checked){border-color:var(--accent);background:var(--accent-tint)}
+.checkline{display:flex;align-items:center;gap:8px;font-size:.88rem;margin:4px 0 16px}
+.checkline input{width:17px;height:17px;accent-color:var(--accent)}
+.go{width:100%;font:inherit;font-weight:800;font-size:.98rem;border:0;border-radius:9px;background:var(--accent-btn);color:#fff;padding:13px;cursor:pointer;min-height:48px}
+.go:hover{background:var(--accent-btn-hover)}
+
+/* ---------- results ---------- */
+.results{display:grid;gap:18px}
+.rescard{padding:24px}
+.rescard h2{font-size:1.1rem;margin:0 0 2px}
+.rescard .sub{color:var(--muted);font-size:.85rem;margin:0 0 18px}
+.badge{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.03em;padding:3px 9px;border-radius:999px}
+.badge.good{background:var(--good-tint);color:var(--good)}
+.badge.warn{background:var(--warn-tint);color:#8A5A00}
+@media (prefers-color-scheme: dark){.badge.warn{color:var(--warn)}}
+
+.rankrow{display:grid;grid-template-columns:140px 1fr 100px;gap:14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line-soft)}
+.rankrow:last-child{border-bottom:0}
+.rankrow .name{font-weight:700;font-size:.92rem;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.rankrow .barwrap{background:var(--surface-alt);border-radius:5px;height:11px;position:relative;overflow:hidden}
+.rankrow .bar{position:absolute;inset:0 auto 0 0;border-radius:5px;background:linear-gradient(90deg,var(--accent),var(--accent-bright));transition:width .6s var(--ease)}
+.rankrow.cheapest .bar{background:linear-gradient(90deg,var(--good),#3FCB4C)}
+.rankrow.priciest .bar{background:linear-gradient(90deg,var(--warn),#E0901A)}
+.rankrow .amt{font-family:var(--mono);font-weight:700;font-size:.92rem;text-align:right}
+.rankrow .amt small{display:block;font-weight:500;color:var(--muted);font-size:.72rem}
+
+.situation{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.sitcard{border:1.5px solid var(--line);border-radius:11px;padding:14px}
+.sitcard.on{border-color:var(--accent);background:var(--accent-tint)}
+.sitcard .k{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.sitcard .v{font-weight:800;font-size:1rem;margin-bottom:3px}
+.sitcard p{margin:0;font-size:.82rem;color:var(--muted);line-height:1.4}
+
+.sourcebox{background:var(--surface-alt);border:1px solid var(--line);border-radius:11px;padding:14px 16px;font-size:.82rem;color:var(--muted)}
+.sourcebox strong{color:var(--ink)}
+.sourcebox a{font-weight:600}
+.empty{color:var(--muted);text-align:center;padding:60px 20px}
+.empty svg{opacity:.5;margin-bottom:10px}
+
+/* ---------- explainer ---------- */
+.explain{background:var(--surface-alt);border-top:1px solid var(--line);margin-top:48px;padding:48px 0}
+.explain h2{font-size:1.3rem;margin:0 0 20px}
+.explaingrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.explaincard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 22px;box-shadow:0 1px 2px rgba(10,20,40,.04)}
+.explaincard .ic{width:34px;height:34px;border-radius:9px;background:var(--accent-tint);color:var(--accent);display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.explaingrid h3{font-size:.95rem;margin:0 0 6px}
+.explaingrid p{font-size:.88rem;color:var(--muted);margin:0}
+
+footer.site{background:var(--navy);color:#B9C4D8;padding:26px 0 36px;margin-top:0}
+footer.site .wrap{font-size:.85rem}
+footer.site ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px 18px;padding:0;margin:0 0 12px}
+footer.site a{color:#D8E0EE;font-weight:600;text-decoration:none}
+footer.site a:hover{text-decoration:underline}
+footer.site p{margin:0 0 8px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent-bright);outline-offset:2px}
+@media print{
+  header.site,footer.site,.skip,.topbar{display:none!important}
+  /* .hero uses white text on a dark background; most browsers default the print
+     dialog's "background graphics" setting to off, which would leave this text
+     invisible on paper. Force readable dark-on-white regardless of that setting. */
+  .hero{background:none!important;color:#000!important;padding-top:20px}
+  .hero::before{display:none!important}
+  .eyebrow,.hero p.lede,.hero .note{color:#000!important}
+  body{background:#fff!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar" role="region" aria-label="Site notice">Published third-party averages, not a personal quote &mdash; <b>no account, no sales calls, no data sold</b></div>
+<header class="site">
+  <div class="bar" id="bar">
+    <a class="brand" href="index.html"><span class="mark">CC</span>Coverage Check</a>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="mainnav" type="button"><span class="bars" aria-hidden="true"></span><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Menu</span></button>
+    <nav class="main" id="mainnav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="tool.html">Price &amp; coverage check</a>
+      <a href="compare.html" class="current" aria-current="page">Compare companies</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="cta" href="#main">Compare now &rarr;</a>
+  </div>
+</header>
+
+<div class="hero" role="region" aria-label="Introduction">
+  <div class="wrap">
+    <div class="hero-in">
+      <p class="eyebrow">Company comparison &middot; car &amp; home</p>
+      <h1>See which insurers run cheaper or pricier &mdash; and why.</h1>
+      <p class="lede">Pick car or home, tell us a little about your situation, and we'll show how major insurers stack up on <strong>published average rates</strong>, plus which ones are typically the better fit for drivers or homeowners like you.</p>
+      <p class="note">This ranks real companies by real published data from NerdWallet and Insurance.com &mdash; it is not a personalized quote. See "About these numbers" below for exact sources, dates and sample profiles.</p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="panelwrap">
+  <div class="grid">
+    <div class="card formcard">
+      <h2>Your situation</h2>
+      <p class="sub">We'll use this to highlight the companies and factors that matter most for you.</p>
+      <div class="typeswitch" role="group" aria-label="Insurance type">
+        <button type="button" id="t-car" aria-pressed="true">Car insurance</button>
+        <button type="button" id="t-home" aria-pressed="false">Home insurance</button>
+      </div>
+
+      <div id="carFields">
+        <div class="f">
+          <label for="c-state">Your state</label>
+          <select id="c-state"></select>
+        </div>
+        <div class="row2">
+          <div class="f">
+            <label for="c-age">Your age</label>
+            <input type="number" id="c-age" value="35" min="16" max="99">
+          </div>
+          <div class="f">
+            <label for="c-record">Driving record</label>
+            <select id="c-record">
+              <option value="clean">Clean (no violations)</option>
+              <option value="accident">One at-fault accident</option>
+              <option value="dui">DUI / major violation</option>
+            </select>
+          </div>
+        </div>
+        <div class="checkline"><input type="checkbox" id="c-bundle"><label for="c-bundle">I'd also bundle with home/renters insurance</label></div>
+      </div>
+
+      <div id="homeFields" style="display:none">
+        <div class="f">
+          <label for="h-state">Your state</label>
+          <select id="h-state"></select>
+        </div>
+        <div class="f">
+          <label for="h-value">Dwelling coverage you'd want</label>
+          <select id="h-value">
+            <option value="200000">$200,000</option>
+            <option value="300000" selected>$300,000</option>
+            <option value="400000">$400,000</option>
+            <option value="500000">$500,000</option>
+            <option value="750000">$750,000+</option>
+          </select>
+          <span class="hint">The published table below is benchmarked at $300,000 of dwelling coverage &mdash; this adjusts the "your estimate" comparison, not each company's own figure.</span>
+        </div>
+        <div class="checkline"><input type="checkbox" id="h-bundle"><label for="h-bundle">I'd also bundle with auto insurance</label></div>
+      </div>
+
+      <button type="button" class="go" id="goBtn">Compare companies &rarr;</button>
+    </div>
+
+    <div class="results" id="results">
+      <div class="card rescard">
+        <div class="empty">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 3v18h18M7 15l4-6 3 4 4-7"/></svg>
+          <p>Fill in your situation on the left and press <strong>Compare companies</strong> to see the rankings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+<div class="explain" role="region" aria-label="About these numbers">
+  <div class="wrap">
+    <h2>About these numbers</h2>
+    <div class="explaingrid">
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg></div>
+        <h3>What this is</h3>
+        <p>A side-by-side of <strong>published average rates</strong> from independent research by NerdWallet and Insurance.com, for a stated sample profile. It is not a quote engine and does not pull live prices from any insurer.</p>
+      </div>
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6m0-6-6 6"/></svg></div>
+        <h3>What it isn't</h3>
+        <p>Your actual price from any company will differ based on your exact address, claims history, credit, vehicle, and the state's approved rate filings. A company ranked "cheaper" here can still quote you higher than a company ranked "pricier."</p>
+      </div>
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 17h.5a2 2 0 0 0 3.9 0h5.2a2 2 0 0 0 3.9 0H22a1.5 1.5 0 0 0 1.5-1.5v-1.1c0-.45-.2-.85-.55-1.15L19 10.65A2.5 2.5 0 0 0 17.3 10H6l-3.7 2.95A2.5 2.5 0 0 0 1.2 14.9v.6A1.5 1.5 0 0 0 2 17Z"/><circle cx="6.5" cy="17" r="1.3"/><circle cx="16" cy="17" r="1.3"/></svg></div>
+        <h3>Car insurance source</h3>
+        <p>NerdWallet, published September 1, 2026. Full-coverage sample: 35-year-old, clean record, good credit, 2023 Toyota Camry LE, 12,000 miles/year. <a href="https://www.nerdwallet.com/insurance/auto/cheapest-car-insurance">View source</a></p>
+      </div>
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V9l8-6 8 6v12M4 21h16M9 21v-6h6v6"/></svg></div>
+        <h3>Home insurance source</h3>
+        <p>Insurance.com, published September 21, 2026. Sample: $300,000 dwelling coverage, $300,000 liability, $1,000 deductible, good credit. <a href="https://www.insurance.com/average-home-insurance-rates">View source</a></p>
+      </div>
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 2 2.6 6.6L22 9l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9l7.4-.4Z"/></svg></div>
+        <h3>"Best for" categories</h3>
+        <p>High-risk/DUI/accident/teen rate differences and category picks (best overall, budget, customer satisfaction, coverage add-ons, savings) are also from NerdWallet's September 2026 analyses, cited inline where shown.</p>
+      </div>
+      <div class="explaincard">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3>Not every company, every state</h3>
+        <p>Not all insurers listed are licensed to sell in every state. Confirm availability and get a real quote directly from each company or a licensed agent before deciding.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <ul>
+      <li><a href="tool.html">Try the tool</a></li>
+      <li><a href="resources.html">Downloads</a></li>
+      <li><a href="/quick-check/">Quick check</a></li>
+      <li><a href="terms.html">Terms of use</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="accessibility.html">Accessibility</a></li>
+      <li><a href="sources.html">Sources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p><strong>Not a quote and not insurance advice.</strong> Coverage Check is an educational tool. It does not sell, broker or bind insurance, and it does not replace a licensed agent or your state insurance department.</p>
+    <p>&copy; [[COMPANY NAME]] &middot; Company rate data last updated October 1, 2026.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------------- data: every figure below is a published third-party average,
+   verified directly against the source page (see "About these numbers"), not
+   something this tool computed or estimated itself. ---------------- */
+
+var CAR_FULL = [ // NerdWallet, Sep 1 2026 — full coverage, 35yo/clean/good credit sample
+  {name:"USAA", note:"military/veteran families only", annual:1587},
+  {name:"Travelers", annual:1657},
+  {name:"State Farm", annual:2005},
+  {name:"GEICO", annual:2023},
+  {name:"Progressive", annual:2075}
+];
+var CAR_MIN = [ // NerdWallet, Sep 1 2026 — minimum coverage, monthly
+  {name:"USAA", note:"military/veteran families only", monthly:31},
+  {name:"Mapfre", monthly:35},
+  {name:"Auto-Owners", monthly:37},
+  {name:"GEICO", monthly:40},
+  {name:"State Farm", monthly:44},
+  {name:"Shelter", monthly:44},
+  {name:"Travelers", monthly:45},
+  {name:"Acuity", monthly:48}
+];
+var HOME = [ // Insurance.com, Sep 21 2026 — $300k dwelling / $300k liability / $1k deductible
+  {name:"USAA", note:"military/veteran families only", annual:2260},
+  {name:"Allstate", annual:2279},
+  {name:"State Farm", annual:2536},
+  {name:"Travelers", annual:2594},
+  {name:"Auto-Owners", annual:2952},
+  {name:"Farmers", annual:2989},
+  {name:"Erie Insurance", annual:3176},
+  {name:"Nationwide", annual:3196},
+  {name:"American Family", annual:3677},
+  {name:"Progressive", annual:5583}
+];
+var CAR_CATEGORIES = {
+  overall: {company:"Amica", why:"Low complaint volume and broad perks/discounts."},
+  budget: {company:"Travelers", why:"Most competitive pricing across most driver profiles."},
+  satisfaction: {company:"Acuity", why:"Fewer complaints relative to its size, per state regulators."},
+  addons: {company:"Progressive", why:"Extras like vet-bill reimbursement, minor-dent repair."},
+  savings: {company:"GEICO", why:"Wide discount list, nationwide availability."}
+};
+var HOME_BUNDLE = {companies:["State Farm","Allstate"], why:"Deepest multi-line discounts (up to 17% at State Farm) and integrated claim handling."};
+
+var STATES = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC"];
+
+function $(id){ return document.getElementById(id); }
+function money(n){ return "$" + Math.round(n).toLocaleString("en-US"); }
+
+function fillStates(sel){
+  STATES.forEach(function(s){ var o=document.createElement("option"); o.value=s; o.textContent=s; sel.appendChild(o); });
+  sel.value = "TX";
+}
+fillStates($("c-state"));
+fillStates($("h-state"));
+
+/* ---------------- type switch ---------------- */
+var mode = "car";
+function setMode(m){
+  mode = m;
+  $("t-car").setAttribute("aria-pressed", m === "car");
+  $("t-home").setAttribute("aria-pressed", m === "home");
+  $("carFields").style.display = m === "car" ? "" : "none";
+  $("homeFields").style.display = m === "home" ? "" : "none";
+}
+$("t-car").addEventListener("click", function(){ setMode("car"); });
+$("t-home").addEventListener("click", function(){ setMode("home"); });
+
+/* ---------------- render ---------------- */
+function rankRows(list, valueKey, highlightGood){
+  var vals = list.map(function(r){ return r[valueKey]; });
+  var max = Math.max.apply(null, vals);
+  var minIdx = vals.indexOf(Math.min.apply(null, vals));
+  var maxIdx = vals.indexOf(max);
+  return list.map(function(r, i){
+    var pct = Math.round((r[valueKey] / max) * 100);
+    var cls = i === minIdx ? "cheapest" : (i === maxIdx ? "priciest" : "");
+    var badge = i === minIdx ? '<span class="badge good">Cheapest</span>' : (i === maxIdx ? '<span class="badge warn">Highest</span>' : "");
+    var amtLabel = valueKey === "monthly" ? money(r[valueKey]) + "<small>/mo</small>" : money(r[valueKey]) + "<small>/yr</small>";
+    return (
+      '<div class="rankrow ' + cls + '">' +
+        '<div class="name">' + r.name + badge + (r.note ? '<small style="color:var(--muted);font-weight:500">(' + r.note + ')</small>' : '') + '</div>' +
+        '<div class="barwrap"><div class="bar" style="width:' + pct + '%"></div></div>' +
+        '<div class="amt">' + amtLabel + '</div>' +
+      '</div>'
+    );
+  }).join("");
+}
+
+function renderCar(){
+  var age = parseInt($("c-age").value, 10) || 35;
+  var record = $("c-record").value;
+  var bundle = $("c-bundle").checked;
+  var state = $("c-state").value;
+
+  var html = '';
+
+  html += '<div class="card rescard"><h2>Full-coverage car insurance: published averages</h2><p class="sub">National average rates for a clean-record 35-year-old. Your own price shifts with your age, record and state &mdash; see the situation cards below for how.</p>';
+  html += rankRows(CAR_FULL, "annual");
+  html += '</div>';
+
+  html += '<div class="card rescard"><h2>Minimum (liability-only) coverage</h2><p class="sub">Same companies, legal-minimum coverage instead of full coverage.</p>';
+  html += rankRows(CAR_MIN, "monthly");
+  html += '</div>';
+
+  html += '<div class="card rescard"><h2>Best fit for your situation</h2><p class="sub">Based on what you entered (' + state + ', age ' + age + ', ' + (record === "clean" ? "clean record" : record === "accident" ? "one at-fault accident" : "DUI/major violation") + (bundle ? ", bundling" : "") + ').</p><div class="situation">';
+
+  if (record === "dui") {
+    html += sitCard(true, "After a DUI", "+$2,089/yr national median", "A 35-year-old's full-coverage rate rises from a $2,344 median (clean) to $4,433 (recent DUI) &mdash; NerdWallet, Sep 2026.");
+  } else if (record === "accident") {
+    html += sitCard(true, "After an at-fault accident", "+~$1,160/yr typical", "Rates usually stay elevated 3&ndash;5 years after one at-fault accident &mdash; NerdWallet, Sep 2026.");
+  }
+  if (record === "dui" || record === "accident") {
+    html += sitCard(false, "Best for a non-clean record", "GEICO &middot; Progressive", "NerdWallet rates these the best balance of affordable high-risk pricing and service (5.0 / 4.8 rating). Specialists: Direct Auto, Dairyland, The General.");
+  }
+  if (age <= 22) {
+    html += sitCard(true, "Teen / young driver", age <= 16 ? "~$6,965/yr added to a parent policy" : (age <= 20 ? "~$5,201/yr added to a parent policy" : "~$4,624/yr added to a parent policy"), "NerdWallet, Sep 2026, by age added to an existing family policy.");
+  }
+  if (bundle) {
+    html += sitCard(false, "Best for bundling", HOME_BUNDLE.companies.join(" &amp; "), HOME_BUNDLE.why);
+  }
+  var cats = ["overall","budget","satisfaction","addons","savings"];
+  var labels = {overall:"Best overall", budget:"Best budget pick", satisfaction:"Best customer satisfaction", addons:"Best coverage add-ons", savings:"Best for discounts"};
+  cats.forEach(function(k){
+    var c = CAR_CATEGORIES[k];
+    html += sitCard(false, labels[k], c.company, c.why);
+  });
+  html += '</div></div>';
+
+  html += sourceBox("NerdWallet, September 1, 2026", "https://www.nerdwallet.com/insurance/auto/cheapest-car-insurance", "35-year-old, clean record, good credit, 2023 Toyota Camry LE, 12,000 mi/yr");
+  $("results").innerHTML = html;
+}
+
+function renderHome(){
+  var state = $("h-state").value;
+  var value = parseInt($("h-value").value, 10);
+  var bundle = $("h-bundle").checked;
+
+  var html = '';
+  html += '<div class="card rescard"><h2>Home insurance: published averages</h2><p class="sub">National average rates at $300,000 of dwelling coverage. Your chosen coverage (' + money(value) + ') will scale the price up or down from this benchmark at any company.</p>';
+  html += rankRows(HOME, "annual");
+  html += '</div>';
+
+  html += '<div class="card rescard"><h2>Best fit for your situation</h2><p class="sub">Based on what you entered (' + state + ', ' + money(value) + ' dwelling' + (bundle ? ", bundling" : "") + ').</p><div class="situation">';
+  html += sitCard(false, "National average", money(2872) + "/yr", "Across all companies and coverage levels surveyed &mdash; Insurance.com, Sep 2026.");
+  if (bundle) {
+    html += sitCard(false, "Best for bundling", HOME_BUNDLE.companies.join(" &amp; "), HOME_BUNDLE.why);
+  }
+  if (value >= 500000) {
+    html += sitCard(true, "Higher dwelling coverage", "Compare rebuild-cost estimators", "At $500k+ of coverage, published per-company averages matter less than getting a real rebuild-cost estimate for your specific house &mdash; see the full Coverage Check tool.");
+  }
+  html += '</div></div>';
+
+  html += sourceBox("Insurance.com, September 21, 2026", "https://www.insurance.com/average-home-insurance-rates", "$300,000 dwelling coverage, $300,000 liability, $1,000 deductible, good credit");
+  $("results").innerHTML = html;
+}
+
+function sitCard(on, k, v, p){
+  return '<div class="sitcard' + (on ? ' on' : '') + '"><div class="k">' + k + '</div><div class="v">' + v + '</div><p>' + p + '</p></div>';
+}
+function sourceBox(src, url, sample){
+  return '<div class="sourcebox"><strong>Source:</strong> <a href="' + url + '">' + src + '</a>. Sample profile: ' + sample + '. Published averages, not a quote for you specifically &mdash; <a href="how-it-works.html">how this site sources numbers</a>.</div>';
+}
+
+$("goBtn").addEventListener("click", function(){
+  if (mode === "car") renderCar(); else renderHome();
+  $("results").scrollIntoView({behavior: "smooth", block: "start"});
+});
+
+/* mobile nav toggle — plain button + class, matches the rest of the site's approach */
+var toggle = $("navtoggle"), bar = $("bar");
+if (toggle) {
+  toggle.addEventListener("click", function(){
+    var open = bar.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+}
+})();
+</script>
+</body>
+</html>

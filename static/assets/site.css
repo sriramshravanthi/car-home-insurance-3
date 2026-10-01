@@ -1,0 +1,117 @@
+
+:root{
+  /* Fixed brand bar — the header/footer stay dark navy in both light and dark
+     theme, like a printed masthead color, rather than following the page surface. */
+  --navy-deep:#061225; --navy:#0B1E3D; --navy-mid:#122A52;
+  --bg:#F4F6F9; --surface:#FFFFFF; --surface-alt:#F4F6F9;
+  --ink:#0F172A; --muted:#51607A; --line:#DFE4EA; --line-soft:#EDF1F5; --head:#EDF1F5;
+  /* --brand is for TEXT (links, headings, borders) against the page surface;
+     --brand-btn is for BUTTON BACKGROUNDS that carry white text on top. In light
+     mode these can share a value (both are "vs white" checks), but in dark mode
+     text wants a brighter blue against a dark surface while a button-with-white-
+     text needs a darker one — same hue, opposite lightness needs. */
+  --brand:#1D4ED8; --brand-bright:#1842C0; --brand-tint:#E8EFFE; --brand-ink:#FFFFFF;
+  --brand-btn:#1D4ED8; --brand-btn-hover:#1842C0;
+  --warn:#9A3412; --warn-tint:#FBEBE0; --good:#166534; --good-tint:#E3F2E8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0D1522; --surface:#121B2C; --surface-alt:#0D1522;
+    --ink:#E7ECF4; --muted:#9FADC2; --line:#243247; --line-soft:#1A2436; --head:#1A2436;
+    --brand:#5B8DF0; --brand-bright:#7FA6F5; --brand-tint:#152542;
+    --brand-btn:#2F5FE0; --brand-btn-hover:#1D4ED8;
+    --warn:#F2A06B; --warn-tint:#3A2413; --good:#7ED6A0; --good-tint:#153223;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:74px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:17px;line-height:1.6}
+.sx-skip{position:absolute;left:-9999px;top:0;background:var(--brand-btn);color:#fff;padding:10px 14px;z-index:100;font-weight:700;border-radius:0 0 6px 0}
+.sx-skip:focus{left:0;top:0}
+
+/* ---------- header: fixed navy brand bar ---------- */
+.sx-header{background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:40}
+.sx-bar{max-width:1140px;margin:0 auto;padding:13px 20px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+.sx-brand{font-weight:800;font-size:1.12rem;letter-spacing:-.01em;color:#fff;text-decoration:none;display:flex;align-items:center;gap:9px}
+.sx-brand::before{content:"CC";display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:7px;background:var(--brand-btn);color:#fff;font-family:"IBM Plex Mono",ui-monospace,monospace;font-weight:800;font-size:.76rem}
+.sx-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px}
+.sx-nav a{display:inline-block;padding:9px 11px;border-radius:7px;color:#C9D3E4;text-decoration:none;font-size:.9rem;font-weight:600;min-height:40px}
+.sx-nav a:hover{background:rgba(255,255,255,.08);color:#fff}
+.sx-nav a[aria-current="page"]{background:rgba(255,255,255,.12);color:#fff}
+.sx-nav a.sx-nav-cta{background:var(--brand-btn);color:#fff;font-weight:700}
+.sx-nav a.sx-nav-cta:hover{background:var(--brand-btn-hover)}
+.sx-vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sx-nav{position:relative}
+.sx-nav-toggle{display:none;-webkit-appearance:none;appearance:none;font:inherit;margin:0;padding:0;border:0;background:transparent;cursor:pointer;align-items:center;justify-content:center;width:40px;height:40px;border-radius:7px}
+.sx-nav-toggle:hover{background:rgba(255,255,255,.08)}
+.sx-nav-toggle-bars,.sx-nav-toggle-bars::before,.sx-nav-toggle-bars::after{content:"";display:block;width:20px;height:2px;background:#fff;border-radius:2px}
+.sx-nav-toggle-bars{position:relative}
+.sx-nav-toggle-bars::before{position:absolute;top:-6px;left:0}
+.sx-nav-toggle-bars::after{position:absolute;top:6px;left:0}
+/* Mobile collapse is JS-driven (.js class + .sx-nav.is-open), not native <details> —
+   simpler and more predictable to control from JS than fighting <details>'s built-in
+   open/close semantics for a menu that also needs "click outside to close" and Escape.
+   Without JS the full link list stays visible at every width — never a dead toggle. */
+@media (max-width:860px){
+  /* .sx-bar's justify-content:space-between (above) is a genuine Chromium bug trigger
+     at narrow widths: confirmed via 30+ isolated repros that ANY free-space-distribution
+     mechanism in a flex container (justify-content:space-between, margin:auto, flex-grow
+     on a sibling, grid's `fr`/justify-self) makes a nested <button> (or <details>/<summary>
+     — unrelated to which element, purely to the distribution) fail to paint at all once
+     the container is narrow enough that real distribution has to happen. Plain content-
+     sized flex (no distribution) never triggers it, hence overriding to flex-start here
+     rather than reworking the desktop layout, which already renders correctly. */
+  .sx-bar{justify-content:flex-start}
+  .js .sx-nav-toggle{display:inline-flex}
+  .js .sx-nav ul{display:none}
+  .js .sx-nav.is-open ul{
+    display:flex;flex-direction:column;align-items:stretch;gap:2px;
+    position:absolute;right:0;top:calc(100% + 8px);
+    background:var(--navy);border:1px solid rgba(255,255,255,.12);border-radius:10px;
+    padding:8px;min-width:230px;box-shadow:0 14px 30px rgba(0,0,0,0.35);z-index:40
+  }
+  .js .sx-nav.is-open a{width:100%}
+}
+a:focus-visible,button:focus-visible{outline:3px solid var(--brand-bright);outline-offset:2px}
+
+/* ---------- content ---------- */
+.sx-main{max-width:920px;margin:0 auto;padding:40px 20px 64px}
+.sx-main h1{font-size:clamp(1.9rem,4.4vw,2.7rem);line-height:1.12;margin:0 0 12px;letter-spacing:-0.015em;font-weight:800;color:var(--ink)}
+.sx-main h2{font-size:1.35rem;margin:40px 0 12px;padding-left:16px;border-top:none;border-left:4px solid var(--brand);line-height:1.25;font-weight:800}
+.sx-main h3{font-size:1.06rem;margin:22px 0 6px;font-weight:800}
+.sx-main p,.sx-main ul,.sx-main ol{margin:0 0 13px}
+.sx-main ul,.sx-main ol{padding-left:22px} .sx-main li{margin-bottom:6px}
+.sx-lead{font-size:1.14rem;color:var(--muted);max-width:60ch}
+.sx-btns{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}
+.sx-btn{display:inline-block;padding:13px 22px;border-radius:9px;background:var(--brand-btn);color:#fff;font-weight:700;text-decoration:none;min-height:46px;border:2px solid var(--brand-btn);transition:background .2s,border-color .2s,transform .2s}
+.sx-btn:hover{background:var(--brand-btn-hover);border-color:var(--brand-btn-hover);transform:translateY(-1px)}
+.sx-btn.alt{background:transparent;color:var(--brand)}
+.sx-btn.alt:hover{background:var(--brand-tint)}
+.sx-note{position:relative;background:var(--surface);border:1px solid var(--line);padding:14px 18px 14px 22px;border-radius:10px;margin:18px 0}
+.sx-note::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--brand)}
+.sx-note.warn{background:var(--warn-tint)}
+.sx-note.warn::before{background:var(--warn)}
+.sx-note a{color:var(--brand);font-weight:700}
+.sx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:16px 0 8px}
+.sx-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;transition:box-shadow .2s,transform .2s}
+.sx-card:hover{box-shadow:0 10px 24px -12px rgba(15,23,42,.18);transform:translateY(-2px)}
+.sx-card h3{margin:0 0 6px}
+.sx-tw{overflow-x:auto;margin:10px 0 16px;border-radius:10px}
+.sx-main table{border-collapse:collapse;width:100%;font-size:.93rem;background:var(--surface)}
+.sx-main th,.sx-main td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+.sx-main th{background:var(--head);font-weight:800}
+.sx-main td.n,.sx-main th.n{text-align:right;white-space:nowrap}
+.sx-main a{color:var(--brand);font-weight:700}
+.sx-main a.sx-btn{color:#fff} .sx-main a.sx-btn.alt{color:var(--brand)}
+.sx-small{font-size:.9rem;color:var(--muted)}
+.sx-ok{color:var(--good);font-weight:700} .sx-flag{color:var(--warn);font-weight:700}
+.sx-draft{background:var(--warn-tint);border:2px solid var(--warn);border-radius:10px;padding:14px 18px;margin:0 0 24px}
+
+/* ---------- footer: matches the navy header ---------- */
+.sx-footer{background:var(--navy);color:#B9C4D8;margin-top:28px}
+.sx-foot{max-width:1140px;margin:0 auto;padding:26px 20px 36px;font-size:.92rem}
+.sx-foot ul{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px}
+.sx-foot a{color:#D8E0EE;font-weight:600;text-decoration:none}
+.sx-foot a:hover{text-decoration:underline}
+.sx-foot p{margin:0 0 8px}
+@media print{.sx-header,.sx-footer,.sx-skip{display:none} body{background:#fff;color:#000}}

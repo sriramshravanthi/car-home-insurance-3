@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quick Risk Check | Coverage Check</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23F3EEE3'/%3E%3Cpath d='M50 12 8 44h10v40h28V56h8v28h28V44h10z' fill='%231E1B16'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,560;0,9..144,680;1,9..144,500&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#top">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="/">COVERAGE <span class="amp">&amp;</span> CHECK</a>
+    <nav class="site-nav">
+      <a href="/">Full site</a>
+      <a href="#car">Car</a>
+      <a href="#home">Home</a>
+      <a href="/docs">API</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">No agent. No pressure. No obligation.</p>
+        <h1>Know your risk<br>before you buy&nbsp;the&nbsp;policy.</h1>
+        <p class="lede">Answer a few plain questions about your car or your home. We'll show you a risk tier, an estimated premium multiplier, and exactly which factors moved the number — the same way an underwriter would explain it to you.</p>
+        <div class="hero-actions">
+          <a href="#car" class="btn btn-primary">Check my car →</a>
+          <a href="#home" class="btn btn-ghost">Check my home →</a>
+        </div>
+        <p class="lede" style="margin-top:18px;font-size:0.9rem;">This is the 10-second version. For state-benchmarked dollar estimates, coverage gap checks and sources, see the <a href="/tool.html">full Coverage Check tool</a>.</p>
+      </div>
+      <div class="hero-stamp" aria-hidden="true">
+        <div class="stamp-badge">
+          <span class="stamp-line">ESTIMATES</span>
+          <span class="stamp-line stamp-big">EDUCATIONAL</span>
+          <span class="stamp-line">ONLY</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dossiers wrap">
+
+    <article class="dossier" id="car" data-domain="car">
+      <div class="dossier-tab">
+        <svg viewBox="0 0 48 24" class="dossier-icon" aria-hidden="true"><path d="M4 17h1a4 4 0 0 0 7.8 0h10.4a4 4 0 0 0 7.8 0h1a3 3 0 0 0 3-3v-2.2c0-.9-.4-1.7-1.1-2.3L38 5.3A5 5 0 0 0 34.6 4H12L4.6 9.9A5 5 0 0 0 2.4 14v0A3 3 0 0 0 4 17Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="13" cy="17" r="2.6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="17" r="2.6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <div>
+          <h2>Car Insurance</h2>
+          <p class="dossier-sub">Driver, vehicle &amp; driving history</p>
+        </div>
+        <span class="folder-no">FILE 01</span>
+      </div>
+
+      <form class="dossier-form" id="car-form" novalidate>
+        <div class="field-grid">
+          <label class="field">
+            <span>Driver age</span>
+            <input type="number" name="driver_age" min="16" max="100" value="35" required>
+          </label>
+          <label class="field">
+            <span>Years licensed</span>
+            <input type="number" name="years_licensed" min="0" max="84" value="15" required>
+            <small>Can't exceed driver age &minus; 16</small>
+          </label>
+          <label class="field">
+            <span>Vehicle age (years)</span>
+            <input type="number" name="vehicle_age" min="0" max="60" value="5" required>
+          </label>
+          <label class="field">
+            <span>Annual mileage</span>
+            <input type="number" name="annual_mileage" min="0" max="150000" step="500" value="12000" required>
+          </label>
+          <label class="field">
+            <span>Accidents, last 5 yrs</span>
+            <input type="number" name="accidents_last_5yrs" min="0" max="20" value="0" required>
+          </label>
+          <label class="field">
+            <span>Claims, last 5 yrs</span>
+            <input type="number" name="claims_last_5yrs" min="0" max="20" value="0" required>
+          </label>
+          <label class="field">
+            <span>Vehicle value (USD)</span>
+            <input type="number" name="vehicle_value" min="1" max="2000000" step="500" value="18000" required>
+          </label>
+          <label class="field field-check">
+            <input type="checkbox" name="urban_area">
+            <span>Garaged in an urban area</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">
+          <span class="btn-label">Check my risk</span>
+          <span class="btn-loading" hidden>Checking<span class="dots"><i></i><i></i><i></i></span></span>
+        </button>
+
+        <div class="result" data-result hidden aria-live="polite">
+          <div class="result-top">
+            <div class="stamp-wrap">
+              <div class="tier-stamp" data-tier-stamp>LOW</div>
+            </div>
+            <div class="result-figures">
+              <div class="score-row">
+                <span class="score-num" data-score>0</span><span class="score-suffix">/100 risk score</span>
+              </div>
+              <div class="gauge">
+                <div class="gauge-track">
+                  <div class="gauge-fill" data-gauge-fill></div>
+                  <div class="gauge-tick" style="left:34%"></div>
+                  <div class="gauge-tick" style="left:67%"></div>
+                </div>
+                <div class="gauge-labels"><span>LOW</span><span>MEDIUM</span><span>HIGH</span></div>
+              </div>
+              <p class="premium-line">Estimated premium multiplier: <strong data-premium>—</strong> &times; your insurer's base rate</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="error-banner" data-error hidden role="alert"></div>
+      </form>
+    </article>
+
+    <div class="seam" aria-hidden="true"></div>
+
+    <article class="dossier" id="home" data-domain="home">
+      <div class="dossier-tab">
+        <svg viewBox="0 0 48 24" class="dossier-icon" aria-hidden="true"><path d="M6 22V11L24 2l18 9v11H29V15h-10v7Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <div>
+          <h2>Home Insurance</h2>
+          <p class="dossier-sub">Property, safety features &amp; exposure</p>
+        </div>
+        <span class="folder-no">FILE 02</span>
+      </div>
+
+      <form class="dossier-form" id="home-form" novalidate>
+        <div class="field-grid">
+          <label class="field">
+            <span>Property age (years)</span>
+            <input type="number" name="property_age" min="0" max="300" value="15" required>
+          </label>
+          <label class="field">
+            <span>Square footage</span>
+            <input type="number" name="square_footage" min="1" max="50000" step="50" value="1800" required>
+          </label>
+          <label class="field">
+            <span>Roof age (years)</span>
+            <input type="number" name="roof_age" min="0" max="300" value="8" required>
+            <small>Can't exceed property age</small>
+          </label>
+          <label class="field">
+            <span>Claims, last 5 yrs</span>
+            <input type="number" name="claims_last_5yrs" min="0" max="20" value="0" required>
+          </label>
+          <label class="field">
+            <span>Distance to fire station (km)</span>
+            <input type="number" name="fire_station_distance_km" min="0" max="100" step="0.1" value="3" required>
+          </label>
+          <label class="field">
+            <span>Property value (USD)</span>
+            <input type="number" name="property_value" min="1" max="50000000" step="1000" value="350000" required>
+          </label>
+          <label class="field field-check">
+            <input type="checkbox" name="security_system" checked>
+            <span>Monitored security system</span>
+          </label>
+          <label class="field field-check">
+            <input type="checkbox" name="flood_zone">
+            <span>Located in a flood zone</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">
+          <span class="btn-label">Check my risk</span>
+          <span class="btn-loading" hidden>Checking<span class="dots"><i></i><i></i><i></i></span></span>
+        </button>
+
+        <div class="result" data-result hidden aria-live="polite">
+          <div class="result-top">
+            <div class="stamp-wrap">
+              <div class="tier-stamp" data-tier-stamp>LOW</div>
+            </div>
+            <div class="result-figures">
+              <div class="score-row">
+                <span class="score-num" data-score>0</span><span class="score-suffix">/100 risk score</span>
+              </div>
+              <div class="gauge">
+                <div class="gauge-track">
+                  <div class="gauge-fill" data-gauge-fill></div>
+                  <div class="gauge-tick" style="left:34%"></div>
+                  <div class="gauge-tick" style="left:67%"></div>
+                </div>
+                <div class="gauge-labels"><span>LOW</span><span>MEDIUM</span><span>HIGH</span></div>
+              </div>
+              <p class="premium-line">Estimated premium multiplier: <strong data-premium>—</strong> &times; your insurer's base rate</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="error-banner" data-error hidden role="alert"></div>
+      </form>
+    </article>
+
+  </section>
+
+  <section class="disclaimer wrap">
+    <h3>What this is — and isn't</h3>
+    <p>Hearth &amp; Road produces <strong>educational estimates only</strong>. It is not an insurance carrier, does not issue policies, does not bind coverage, and does not guarantee pricing or savings. Real premiums vary by insurer, state, and underwriting rules not captured here. Always verify details with a licensed insurance professional before making a decision.</p>
+    <div class="status-line">
+      <span class="status-dot" data-status-dot></span>
+      <span data-status-text>Checking system status…</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Hearth &amp; Road</span>
+    <span>Risk estimates are illustrative, not quotes.</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

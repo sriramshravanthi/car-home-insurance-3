@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Insurance Blueprint: Research, Design and Build Status</title>
+<style>
+:root{--bg:#F6F7F5;--surface:#FFFFFF;--ink:#16211C;--muted:#52605A;--line:#D6DDD8;--brand:#0F5B4A;--warn:#9A3412;--warn-tint:#FBEBE0;--good:#166534;--good-tint:#E3F2E8;--head:#E8EEEA;}
+@media (prefers-color-scheme: dark){:root{--bg:#0F1512;--surface:#16201B;--ink:#E7EEE9;--muted:#A2B0A8;--line:#2B3A33;--brand:#6CCBA9;--warn:#F2A06B;--warn-tint:#3A2413;--good:#7ED6A0;--good-tint:#153223;--head:#1D2A24;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:36px 20px 80px}
+h1{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin:0 0 8px}
+h2{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.4rem;margin:44px 0 10px;padding-top:14px;border-top:2px solid var(--brand)}
+h3{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1.05rem;margin:22px 0 6px}
+p{margin:0 0 12px} ul,ol{margin:0 0 12px;padding-left:22px} li{margin-bottom:5px}
+.meta{color:var(--muted);font-family:system-ui,sans-serif;font-size:.92rem}
+.box{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--brand);padding:14px 18px;border-radius:0 8px 8px 0;margin:18px 0}
+.box.warn{border-left-color:var(--warn);background:var(--warn-tint)}
+.tw{overflow-x:auto;margin:10px 0 16px}
+table{border-collapse:collapse;width:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.9rem;background:var(--surface)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--head);font-weight:700}
+td.n,th.n{text-align:right;white-space:nowrap}
+a{color:var(--brand);font-weight:600}
+.small{font-size:.9rem;color:var(--muted)}
+.ok{color:var(--good);font-weight:700} .flag{color:var(--warn);font-weight:700}
+nav.toc{font-family:system-ui,sans-serif;font-size:.92rem;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:6px 14px}
+nav.toc a{white-space:nowrap}
+footer{margin-top:50px;color:var(--muted);font-size:.88rem;font-family:system-ui,sans-serif}
+@media print{body{background:#fff;color:#000} nav.toc{display:none} h2{break-after:avoid} table{break-inside:avoid}}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<h1>Home Insurance Blueprint</h1>
+<p class="meta">Research, design and build status &middot; US homeowners insurance &middot; September 29, 2026</p>
+<nav class="toc" aria-label="Contents">
+<a href="#summary">Summary</a><a href="#market">Market</a><a href="#policy">How a policy works</a><a href="#pricing">Pricing</a><a href="#itv">Rebuild cost</a><a href="#storm">Storm deductibles</a><a href="#roof">Roof</a><a href="#flood">Flood and quake</a><a href="#access">Cover access</a><a href="#claims">Claims economics</a><a href="#arch">Architecture</a><a href="#built">What is built</a><a href="#open">Open items</a><a href="#sources">Sources</a>
+</nav>
+</header>
+
+<section id="summary">
+<h2>Summary</h2>
+<div class="box"><p><b>For most homeowners the price is not the biggest risk. The gaps are.</b> The largest ways a home policy fails a household are too little house cover to rebuild, a percentage storm deductible or actual-cash-value roof that quietly shifts thousands to the owner, exclusions (flood, sewer backup, code upgrades) nobody knew about, and losing cover at renewal. The home module of the checker was rebuilt around those four risks, with price as one part.</p></div>
+<ul>
+<li><b>Rebuild cost is the biggest single exposure and the data disagrees.</b> Published estimates run from $162 a square foot (NAHB, new construction) to $280 (NerdWallet with First Street data) to $350 (an Insure.com survey of actual rebuilds). The first version of the tool assumed $200, which would have called most homes adequately insured. It now shows all three.</li>
+<li><b>Storm deductibles and roof terms decide what a storm claim really pays.</b> A 2% hurricane deductible on a $560,000 house is $11,200 before the insurer pays anything; the average wind or hail claim is about $13,500. An older roof paid at actual cash value can leave most of a $20,000 replacement to the owner.</li>
+<li><b>A policy stress test</b> now shows, for the user's own answers, what the policy would pay in a fire, total loss, wind or hail, hurricane, roof replacement, burst pipe, sewer backup, theft, small and large liability suits, flood and earthquake.</li>
+<li><b>Home prices are still the weakest number.</b> They start from one published dataset (Insurance.com, September 15, 2026), and a second published source is 25% to 60% lower in the ten states compared. The claims and credit effects are now sourced; roof, age and construction effects are still assumptions.</li>
+<li><b>1,737 automated checks pass</b> on the rebuilt checker (in a simulated browser). The model was also tested against the Oklahoma Insurance Department's official per-insurer home premiums (see section 3); no real quotes for the pilot states were available.</li>
+</ul>
+<p class="small">All dollar figures for the user's own home come from a learning model, not a quote. Published averages are cited with their source and date.</p>
+</section>
+
+<section id="market">
+<h2>1. Market conditions</h2>
+<ul>
+<li><b>Claim costs are at records.</b> LexisNexis reports all-peril claim severity in 2025 was up 25.9% from 2024 and 93.2% above 2019, even though claim frequency fell 23.8%; loss cost was still about 50% above 2019. Fire and lightning severity rose 67.3% in 2025, largely from the Los Angeles wildfires (estimated at $61.2 billion). In 2024, catastrophe claims were 42% of claims and 64% of losses.</li>
+<li><b>Price pressure shows up in state averages.</b> Insurance.com's 2026 data found the largest increases in Louisiana (58%), Michigan (48%), Virginia (37%), Kentucky (33%) and Minnesota (29%).</li>
+<li><b>Access to cover is tightening in some states.</b> California's FAIR Plan, the insurer of last resort, held about 668,000 policies with about $724 billion of exposure at a January 2026 legislative hearing, and its president attributed slower growth to fewer bulk non-renewals. Florida's Citizens plays the same role. See section 9.</li>
+<li><b>Consequence for a consumer tool:</b> availability and coverage terms matter as much as price. A cheap quote from a market that later non-renews you, or one that pays the roof at depreciated value, is not a bargain.</li>
+</ul>
+</section>
+
+<section id="policy">
+<h2>2. How a homeowners policy works</h2>
+<p>Most owner-occupied policies are HO-3 forms. The structure below comes from state-run insurer (Florida Citizens) coverage worksheets for private carriers and other filed programs; details vary by insurer and state.</p>
+<div class="tw" tabindex="0" role="region" aria-label="Table 1 (scrolls sideways if needed)"><table>
+<thead><tr><th>Coverage</th><th>What it covers</th><th>Typical terms</th></tr></thead>
+<tbody>
+<tr><td>A. Dwelling</td><td>The house. All causes of loss except exclusions.</td><td>Replacement cost. Some forms apply a coinsurance penalty if the house is insured for less than 80% of replacement cost.</td></tr>
+<tr><td>B. Other structures</td><td>Detached garage, fence, shed.</td><td>2% to 10% of Coverage A by default in the worksheets reviewed; higher limits available.</td></tr>
+<tr><td>C. Personal property</td><td>Contents. Named perils.</td><td>Often paid at actual cash value; replacement cost is an add-on. Included at about 25% to 50% of Coverage A.</td></tr>
+<tr><td>D. Loss of use</td><td>Extra living costs if the home is unlivable.</td><td>About 10% to 20% of Coverage A.</td></tr>
+<tr><td>E. Personal liability</td><td>Lawsuits for injury or damage you cause.</td><td>Options such as $100,000 to $500,000; no deductible.</td></tr>
+<tr><td>F. Medical payments to others</td><td>Small medical bills for guests.</td><td>$2,000 to $5,000.</td></tr>
+</tbody></table></div>
+<h3>Special limits inside Coverage C</h3>
+<p>Worksheets reviewed show money capped at $200, securities at $1,000 to $1,500, jewelry and furs (theft) at $1,000 to $1,500, firearms (theft) at $1,000 to $2,500, silverware (theft) at $2,500, and business property at $2,500 on the premises and $250 off it. Valuables above these limits need a scheduled endorsement.</p>
+<h3>Endorsements that change outcomes</h3>
+<ul>
+<li><b>Ordinance or law:</b> pays to bring a rebuilt home up to current codes. A common example is 10% of Coverage A.</li>
+<li><b>Extended replacement cost:</b> adds roughly 10% to 50% of the dwelling limit if rebuilding costs more.</li>
+<li><b>Water backup:</b> sewer, drain and sump backup, often around $10,000 as an add-on. Usually excluded from a standard policy.</li>
+<li><b>Service line and equipment breakdown:</b> underground utilities and appliance or HVAC breakdown, offered as add-ons by some insurers.</li>
+<li><b>Replacement cost on contents,</b> and an <b>umbrella policy</b> for liability above the home limit.</li>
+</ul>
+</section>
+
+<section id="pricing">
+<h2>3. Pricing anatomy</h2>
+<h3>State averages</h3>
+<p>Insurance.com (updated September 15, 2026, rates from Quadrant) publishes average annual premiums for $200,000, $300,000, $400,000 and $600,000 of dwelling cover, with a $1,000 deductible, $300,000 liability and good credit; a 2% hurricane deductible is included where it applies, and Hawaii's average excludes hurricane cover. National averages: $2,156, $2,872, $3,579 and $4,960. The checker interpolates each state's own four points (log-log) for any coverage limit.</p>
+<div class="tw" tabindex="0" role="region" aria-label="Table 2 (scrolls sideways if needed)"><table>
+<thead><tr><th>State</th><th class="n">$200,000</th><th class="n">$300,000</th><th class="n">$400,000</th><th class="n">$600,000</th><th class="n">Index at $300,000 (national 1.00)</th></tr></thead>
+<tbody>
+<tr><td>Alabama</td><td class="n">$2,852</td><td class="n">$3,716</td><td class="n">$4,506</td><td class="n">$6,118</td><td class="n">1.29</td></tr>
+<tr><td>Alaska</td><td class="n">$1,177</td><td class="n">$1,492</td><td class="n">$1,825</td><td class="n">$2,420</td><td class="n">0.52</td></tr>
+<tr><td>Arizona</td><td class="n">$1,895</td><td class="n">$2,397</td><td class="n">$2,917</td><td class="n">$4,011</td><td class="n">0.83</td></tr>
+<tr><td>Arkansas</td><td class="n">$2,458</td><td class="n">$3,195</td><td class="n">$3,960</td><td class="n">$5,450</td><td class="n">1.11</td></tr>
+<tr><td>California</td><td class="n">$1,244</td><td class="n">$1,653</td><td class="n">$2,090</td><td class="n">$3,092</td><td class="n">0.58</td></tr>
+<tr><td>Colorado</td><td class="n">$4,058</td><td class="n">$5,511</td><td class="n">$6,847</td><td class="n">$8,994</td><td class="n">1.92</td></tr>
+<tr><td>Connecticut</td><td class="n">$1,673</td><td class="n">$2,132</td><td class="n">$2,600</td><td class="n">$3,524</td><td class="n">0.74</td></tr>
+<tr><td>Delaware</td><td class="n">$1,140</td><td class="n">$1,461</td><td class="n">$1,796</td><td class="n">$2,662</td><td class="n">0.51</td></tr>
+<tr><td>Florida</td><td class="n">$6,203</td><td class="n">$8,471</td><td class="n">$11,161</td><td class="n">$16,690</td><td class="n">2.95</td></tr>
+<tr><td>Georgia</td><td class="n">$1,784</td><td class="n">$2,301</td><td class="n">$2,888</td><td class="n">$4,120</td><td class="n">0.80</td></tr>
+<tr><td>Hawaii</td><td class="n">$558</td><td class="n">$738</td><td class="n">$943</td><td class="n">$1,315</td><td class="n">0.26</td></tr>
+<tr><td>Idaho</td><td class="n">$1,800</td><td class="n">$2,412</td><td class="n">$3,009</td><td class="n">$4,189</td><td class="n">0.84</td></tr>
+<tr><td>Illinois</td><td class="n">$2,176</td><td class="n">$2,802</td><td class="n">$3,357</td><td class="n">$4,678</td><td class="n">0.98</td></tr>
+<tr><td>Indiana</td><td class="n">$2,183</td><td class="n">$2,869</td><td class="n">$3,490</td><td class="n">$4,597</td><td class="n">1.00</td></tr>
+<tr><td>Iowa</td><td class="n">$2,406</td><td class="n">$3,148</td><td class="n">$3,820</td><td class="n">$5,051</td><td class="n">1.10</td></tr>
+<tr><td>Kansas</td><td class="n">$3,822</td><td class="n">$5,289</td><td class="n">$6,763</td><td class="n">$9,553</td><td class="n">1.84</td></tr>
+<tr><td>Kentucky</td><td class="n">$3,587</td><td class="n">$4,471</td><td class="n">$5,450</td><td class="n">$7,030</td><td class="n">1.56</td></tr>
+<tr><td>Louisiana</td><td class="n">$3,766</td><td class="n">$5,185</td><td class="n">$6,613</td><td class="n">$9,540</td><td class="n">1.81</td></tr>
+<tr><td>Maine</td><td class="n">$956</td><td class="n">$1,299</td><td class="n">$1,642</td><td class="n">$2,377</td><td class="n">0.45</td></tr>
+<tr><td>Maryland</td><td class="n">$1,743</td><td class="n">$2,242</td><td class="n">$2,728</td><td class="n">$3,659</td><td class="n">0.78</td></tr>
+<tr><td>Massachusetts</td><td class="n">$1,616</td><td class="n">$2,112</td><td class="n">$2,584</td><td class="n">$3,543</td><td class="n">0.74</td></tr>
+<tr><td>Michigan</td><td class="n">$2,249</td><td class="n">$3,071</td><td class="n">$4,044</td><td class="n">$5,545</td><td class="n">1.07</td></tr>
+<tr><td>Minnesota</td><td class="n">$2,344</td><td class="n">$3,333</td><td class="n">$4,257</td><td class="n">$5,698</td><td class="n">1.16</td></tr>
+<tr><td>Mississippi</td><td class="n">$1,995</td><td class="n">$2,602</td><td class="n">$3,092</td><td class="n">$4,216</td><td class="n">0.91</td></tr>
+<tr><td>Missouri</td><td class="n">$2,933</td><td class="n">$3,783</td><td class="n">$4,578</td><td class="n">$6,199</td><td class="n">1.32</td></tr>
+<tr><td>Montana</td><td class="n">$2,419</td><td class="n">$3,221</td><td class="n">$3,910</td><td class="n">$5,252</td><td class="n">1.12</td></tr>
+<tr><td>Nebraska</td><td class="n">$4,199</td><td class="n">$5,513</td><td class="n">$6,754</td><td class="n">$9,153</td><td class="n">1.92</td></tr>
+<tr><td>Nevada</td><td class="n">$1,377</td><td class="n">$1,876</td><td class="n">$2,380</td><td class="n">$3,399</td><td class="n">0.65</td></tr>
+<tr><td>New Hampshire</td><td class="n">$1,013</td><td class="n">$1,324</td><td class="n">$1,627</td><td class="n">$2,206</td><td class="n">0.46</td></tr>
+<tr><td>New Jersey</td><td class="n">$1,079</td><td class="n">$1,449</td><td class="n">$1,837</td><td class="n">$2,542</td><td class="n">0.50</td></tr>
+<tr><td>New Mexico</td><td class="n">$2,378</td><td class="n">$3,497</td><td class="n">$4,577</td><td class="n">$6,790</td><td class="n">1.22</td></tr>
+<tr><td>New York</td><td class="n">$1,401</td><td class="n">$1,844</td><td class="n">$2,339</td><td class="n">$3,356</td><td class="n">0.64</td></tr>
+<tr><td>North Carolina</td><td class="n">$2,481</td><td class="n">$3,799</td><td class="n">$4,768</td><td class="n">$6,692</td><td class="n">1.32</td></tr>
+<tr><td>North Dakota</td><td class="n">$2,173</td><td class="n">$2,846</td><td class="n">$3,537</td><td class="n">$4,776</td><td class="n">0.99</td></tr>
+<tr><td>Ohio</td><td class="n">$1,687</td><td class="n">$2,109</td><td class="n">$2,564</td><td class="n">$3,530</td><td class="n">0.73</td></tr>
+<tr><td>Oklahoma</td><td class="n">$3,756</td><td class="n">$5,378</td><td class="n">$7,105</td><td class="n">$10,232</td><td class="n">1.87</td></tr>
+<tr><td>Oregon</td><td class="n">$1,275</td><td class="n">$1,647</td><td class="n">$2,057</td><td class="n">$2,860</td><td class="n">0.57</td></tr>
+<tr><td>Pennsylvania</td><td class="n">$1,104</td><td class="n">$1,434</td><td class="n">$1,755</td><td class="n">$2,424</td><td class="n">0.50</td></tr>
+<tr><td>Rhode Island</td><td class="n">$1,768</td><td class="n">$2,379</td><td class="n">$2,934</td><td class="n">$4,102</td><td class="n">0.83</td></tr>
+<tr><td>South Carolina</td><td class="n">$2,032</td><td class="n">$2,870</td><td class="n">$3,690</td><td class="n">$5,208</td><td class="n">1.00</td></tr>
+<tr><td>South Dakota</td><td class="n">$2,732</td><td class="n">$3,740</td><td class="n">$4,606</td><td class="n">$6,127</td><td class="n">1.30</td></tr>
+<tr><td>Tennessee</td><td class="n">$2,409</td><td class="n">$3,198</td><td class="n">$3,970</td><td class="n">$5,489</td><td class="n">1.11</td></tr>
+<tr><td>Texas</td><td class="n">$3,294</td><td class="n">$4,582</td><td class="n">$5,733</td><td class="n">$7,858</td><td class="n">1.60</td></tr>
+<tr><td>Utah</td><td class="n">$1,352</td><td class="n">$1,771</td><td class="n">$2,179</td><td class="n">$2,951</td><td class="n">0.62</td></tr>
+<tr><td>Vermont</td><td class="n">$782</td><td class="n">$1,017</td><td class="n">$1,247</td><td class="n">$1,663</td><td class="n">0.35</td></tr>
+<tr><td>Virginia</td><td class="n">$1,579</td><td class="n">$1,939</td><td class="n">$2,379</td><td class="n">$3,336</td><td class="n">0.68</td></tr>
+<tr><td>Washington</td><td class="n">$1,375</td><td class="n">$1,766</td><td class="n">$2,174</td><td class="n">$3,027</td><td class="n">0.61</td></tr>
+<tr><td>Washington, D.C.</td><td class="n">$1,139</td><td class="n">$1,558</td><td class="n">$1,994</td><td class="n">$2,770</td><td class="n">0.54</td></tr>
+<tr><td>West Virginia</td><td class="n">$1,572</td><td class="n">$1,961</td><td class="n">$2,333</td><td class="n">$3,037</td><td class="n">0.68</td></tr>
+<tr><td>Wisconsin</td><td class="n">$1,420</td><td class="n">$1,836</td><td class="n">$2,227</td><td class="n">$2,948</td><td class="n">0.64</td></tr>
+<tr><td>Wyoming</td><td class="n">$1,470</td><td class="n">$2,075</td><td class="n">$2,730</td><td class="n">$4,051</td><td class="n">0.72</td></tr>
+</tbody></table></div>
+
+<h3>Which factors are sourced</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 3 (scrolls sideways if needed)"><table>
+<thead><tr><th>Factor</th><th>Value used</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>State price level and coverage scaling</td><td>Each state's four published points</td><td class="ok">Sourced: Insurance.com. Leave-one-out test: 1.2% mean error at interior points, 2.9% at the ends</td></tr>
+<tr><td>Deductible</td><td>$2,500 is 0.91x of $1,000; $5,000 is 0.84x</td><td class="ok">Sourced: Insurance.com averages (NerdWallet reports about 10.6% for $1,000 to $2,500)</td></tr>
+<tr><td>Personal liability</td><td>$100,000 is 0.991x of $300,000; $500,000 is 1.005x</td><td class="ok">Sourced: Insurance.com averages</td></tr>
+<tr><td>Claims in five years</td><td>One claim 1.16x; two 1.29x; three or more 1.45x</td><td class="ok">Sourced for one and two (MoneyGeek, March 2026: $3,961 and $4,418 vs. $3,417 claim-free); three or more assumed</td></tr>
+<tr><td>Credit</td><td>Poor 2.11x, average 1.07x, good 1.00x, excellent 0.89x; ignored in CA, MD and MA</td><td class="ok">Sourced: Bankrate ($300K cover: $5,122, $2,601, $2,424, $2,160). Other studies show poor vs. excellent at 1.29x, 2.14x and 2.37x, so this is a wide range</td></tr>
+<tr><td>Roof age</td><td>1.10x at 10 to 19 years; 1.30x at 20 or more</td><td class="flag">Assumed; roofing-contractor sources report 15% to 30% surcharges at 15 to 20 years</td></tr>
+<tr><td>Masonry vs. frame</td><td>0.98x</td><td class="ok">Sourced: Oklahoma Insurance Department samples (median across insurers)</td></tr>
+<tr><td>Year built, occupancy, local hazards</td><td>Applied as entered</td><td class="flag">Assumed: no reliable published figure found</td></tr>
+<tr><td>Houses under $200,000</td><td>Price falls with an elasticity of about 0.6</td><td class="ok">Sourced: Oklahoma samples (the $100,000 median is 0.50 of the $300,000 median)</td></tr>
+<tr><td>Range and confidence</td><td>x0.73 to x1.37 (the middle half of expected insurer prices); confidence capped at 58%</td><td class="ok">From the spread between insurers in Oklahoma's official samples (log sd 0.42 to 0.43), plus an assumed 0.20 for model error</td></tr>
+</tbody></table></div>
+
+<h3>Test against official insurer premiums</h3>
+<p>The Oklahoma Insurance Department publishes real premiums from about 20 insurers for identical sample homes (updated August 2026): HO-3, replacement cost, five dwelling amounts from $100,000 to $500,000, 1% deductible, $100,000 liability, frame and masonry, four cities, 800 prices. Model divided by median insurer: $100K 0.94, $200K 0.90, $300K 0.91, $400K 0.93, $500K 0.96, and $300K masonry 0.94. Price scaling with coverage matched (model 0.52, 0.73, 1.00, 1.28, 1.52 against insurers 0.50, 0.74, 1.00, 1.26, 1.45). The model's range holds 59% of individual insurer prices. Insurers differ from each other by a factor of about 4.7 between cheapest and dearest for the same home, which is why the tool shows a wide range and a percentile. This is one state at one time and standard programs only. The tidy data is in <code>oklahoma-official-insurer-samples.csv</code> and the full write-up is in the main report.</p>
+<h3>How much the sources disagree</h3>
+<div class="box warn"><p>An InsuranceQuotes/Quadrant table gives $300,000 averages that are 38% to 80% of the Insurance.com figures in ten states: Florida $4,218 vs. $8,471, Texas $3,420 vs. $4,582, California $1,326 vs. $1,653, New York $1,234 vs. $1,844, Ohio $1,020 vs. $2,109, Oklahoma $3,645 vs. $5,378, Georgia $1,489 vs. $2,301, Illinois $1,273 vs. $2,802, Colorado $2,115 vs. $5,511, Louisiana $3,930 vs. $5,185. A Compare.com table lists Florida at $10,675, and national averages across sources run from about $1,700 to $2,872. The earlier plus or minus 35% range (now x0.73 to x1.37) contained the other source's figure in only 5 of the 10 states. Definitions, dates and home assumptions differ, so no home figure should be read as exact.</p></div>
+<p>Insurance.com's earlier vintage moved by at most 17% to the September 2026 table across 17 states compared, which is why the range is wide but not arbitrary.</p>
+</section>
+
+<section id="itv">
+<h2>4. Insurance to value: is the house limit enough?</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 4 (scrolls sideways if needed)"><table>
+<thead><tr><th>Source</th><th class="n">Per sq ft</th><th>What it measures</th></tr></thead>
+<tbody>
+<tr><td>NAHB, as cited by Insurance.com (2026)</td><td class="n">$162 (state range $154 in Mississippi to $230 in Hawaii)</td><td>Average new-home construction cost</td></tr>
+<tr><td>NerdWallet, using First Street data (2025)</td><td class="n">about $280 (New Jersey $330, Montana $240)</td><td>Median rebuild cost</td></tr>
+<tr><td>Insure.com survey of 3,000 policyholders</td><td class="n">about $350</td><td>Actual rebuild cost; average dwelling cover was $591,100 against an average $757,100 rebuild, and three in four were underinsured</td></tr>
+</tbody></table></div>
+<p>A University of Colorado study of nearly 5,000 affected policyholders found homeowners were underinsured by an average of $139,000, and that many buy the amount their insurer suggests. Smaller homes cost more per square foot because fixed costs weigh more.</p>
+<p><b>Design decision:</b> the tool shows the three estimates side by side with the user's limit as a share of each, the dollar shortfall, and the coinsurance warning below 80% of the midpoint, and it tells the user to get a contractor or insurer estimate. It never treats one figure as the truth. Its earlier fixed assumption of $200 a square foot has been removed.</p>
+</section>
+
+<section id="storm">
+<h2>5. Storm deductibles</h2>
+<ul>
+<li>Hurricane and wind or hail deductibles are usually a percentage of the dwelling limit, not of the claim. Typical hurricane deductibles run 1% to 5% and can reach 10% in high-risk areas. Some insurers offer flat dollar amounts, which are becoming less common in high-risk zones.</li>
+<li>Nineteen states and Washington, D.C. have some form of hurricane, named-storm or windstorm deductible (Policygenius, 2024).</li>
+<li>Florida sets the rules by statute: insurers must offer $500, 2%, 5% and 10% options; the deductible applies once per hurricane season; and it is triggered only by a hurricane declared by the National Weather Service. The same rules apply at Citizens.</li>
+<li>North Carolina's Department of Insurance describes a named-storm deductible as a percentage of Coverage A, giving a 2% deductible on $300,000 as $6,000.</li>
+</ul>
+<div class="tw" tabindex="0" role="region" aria-label="Table 5 (scrolls sideways if needed)"><table>
+<thead><tr><th>House limit</th><th class="n">1%</th><th class="n">2%</th><th class="n">5%</th><th class="n">10%</th></tr></thead>
+<tbody>
+<tr><td>$300,000</td><td class="n">$3,000</td><td class="n">$6,000</td><td class="n">$15,000</td><td class="n">$30,000</td></tr>
+<tr><td>$400,000</td><td class="n">$4,000</td><td class="n">$8,000</td><td class="n">$20,000</td><td class="n">$40,000</td></tr>
+<tr><td>$560,000</td><td class="n">$5,600</td><td class="n">$11,200</td><td class="n">$28,000</td><td class="n">$56,000</td></tr>
+</tbody></table></div>
+<p>The average wind or hail claim is about $13,500 (Insurance Information Institute, weighted 2018 to 2022), so a 5% deductible on a $400,000 house would leave an average claim paying nothing. The tool calculates this for the user's own limit and flags it.</p>
+</section>
+
+<section id="roof">
+<h2>6. Roof age and payment terms</h2>
+<ul>
+<li>Sources agree that roof age around 15 years is where insurers begin to ask for inspections, shift the roof to actual cash value, add surcharges, or decline new business; by 20 years many restrict cover or decline. Most of these sources are roofing contractors or agencies, so treat specific percentages as marketing-grade; the direction is consistent.</li>
+<li>Hail-prone states can be stricter: reports describe 10-year rules for asphalt roofs in Colorado, with State Farm using actual-cash-value roof endorsements and Nationwide a limited roof endorsement at 11 years.</li>
+<li>Florida law (as summarized by roofing contractors citing statute 627.7011) bars refusing or non-renewing a policy solely because of roof age when the roof is under 15 years, and from 15 years lets insurers require an inspection; an inspection showing at least 5 years of remaining life defeats an age-only refusal. Verify the current statute.</li>
+<li>Actual cash value deducts depreciation. Contractor sources illustrate a 15-year-old $20,000 roof paying about $5,000; reports that depreciation reduces payouts 40% to 60% are promotional. The tool depreciates the roof in a straight line over its expected life (asphalt 20 years, tile 35, metal 45, all assumptions) and shows replacement-cost and actual-cash-value outcomes side by side.</li>
+</ul>
+</section>
+
+<section id="flood">
+<h2>7. Flood and earthquake</h2>
+<ul>
+<li>Standard homeowners policies do not cover flood. The National Flood Insurance Program offers up to $250,000 for a home and $100,000 for contents (contents cover must be requested), and premiums are set by the program, not the insurer. Sources give average premiums from about $500 to $1,200 a year; costs vary with zone and coverage.</li>
+<li>There is normally a 30-day waiting period before NFIP cover takes effect.</li>
+<li>Lenders must require flood insurance for federally backed mortgages on property in a Special Flood Hazard Area. Higher limits are available from private flood insurers.</li>
+<li>Earthquake is also excluded from standard policies and sold as an add-on, usually with a large deductible.</li>
+<li>The FEMA flood zone and National Risk Index links, and the local address helper, give area evidence; they are not house-level assessments.</li>
+</ul>
+</section>
+
+<section id="access">
+<h2>8. Keeping cover: non-renewal, residual markets and what to do</h2>
+<ul>
+<li><b>Florida:</b> Citizens Property Insurance is the state-run insurer of last resort. One roofing source reports a 120-day written notice requirement for non-renewal with the reason stated; verify with the Office of Insurance Regulation.</li>
+<li><b>California:</b> the FAIR Plan is a shared pool of insurers. A broker summary says it covers named perils only (fire, lightning, smoke, internal explosion) with a $3 million cap per residential structure, so theft, liability and water damage may need a separate difference-in-conditions policy. California law also limits non-renewals in wildfire moratorium areas.</li>
+<li><b>North Carolina:</b> the Department of Insurance describes a separate wind policy through the state underwriting association for coastal homes.</li>
+<li>Many other states run a FAIR Plan or similar. Ask the state insurance department.</li>
+</ul>
+<h3>If you are non-renewed or cannot find cover</h3>
+<ol>
+<li>Get the notice in writing and ask for the reason.</li>
+<li>Compare at least three quotes, including an independent agent who can shop several insurers.</li>
+<li>Ask whether a roof inspection or repair, or a wind-mitigation inspection, could keep or restore eligibility.</li>
+<li>Keep continuous coverage; a lapse can trigger force-placed lender insurance.</li>
+<li>Use the insurer of last resort only when nothing else is available, and check what it does not cover.</li>
+</ol>
+</section>
+
+<section id="claims">
+<h2>9. Claims economics</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 6 (scrolls sideways if needed)"><table>
+<thead><tr><th>Cause</th><th class="n">Average claim (2018 to 2022)</th></tr></thead>
+<tbody>
+<tr><td>Fire and lightning</td><td class="n">$83,991</td></tr>
+<tr><td>Bodily injury or property damage liability</td><td class="n">$31,690</td></tr>
+<tr><td>Water damage and freezing</td><td class="n">$13,954</td></tr>
+<tr><td>Wind and hail</td><td class="n">$13,511</td></tr>
+<tr><td>Medical payments</td><td class="n">$13,081</td></tr>
+<tr><td>Theft</td><td class="n">$5,024</td></tr>
+</tbody></table></div>
+<p class="small">Source: Insurance Information Institute weighted averages. Wind and hail are the most common claims; fire is the most expensive.</p>
+<ul>
+<li><b>A claim raises the price.</b> One claim in five years pays about 16% more than a claim-free household ($3,961 vs. $3,417), two claims about 29% more (MoneyGeek, March 2026). An Insurance.com study by claim type puts one claim at about 16% for weather, 25% for water and 29% for fire. Claims stay on a CLUE report for five to seven years. Insurers differ widely after a claim, and a Consumer Reports survey found half of claimants saw no increase in the following years.</li>
+<li><b>Implication:</b> the tool's renewal and stress-test sections tell users when a small claim (below or near the deductible) is not worth filing, and to compare after any claim.</li>
+</ul>
+</section>
+
+<section id="arch">
+<h2>10. Architecture for a home insurance product</h2>
+<h3>Modules</h3>
+<ol>
+<li><b>Intake and enrichment:</b> address to coordinates (Census geocoder), FEMA flood zone (National Flood Hazard Layer), tract-level hazard ratings (National Risk Index). Licensed property-level data (Guidewire HazardHub, ZestyAI) later, for anything that influences price.</li>
+<li><b>State rules engine:</b> credit-use bans (CA, MD, MA), hurricane deductible rules and triggers (for example Florida), roof-age protections, non-renewal notice rules, producer licensing scope.</li>
+<li><b>Insurance-to-value engine:</b> rebuild range from several sources; later a contractor-grade estimator or a licensed replacement-cost API.</li>
+<li><b>Pricing engine:</b> published state curves plus sourced factors; quantile ranges; validated on real quotes before any "overpaying" verdict.</li>
+<li><b>Coverage-gap engine:</b> storm deductible and roof terms, exclusions (flood, quake, sewer backup), endorsements, special limits, liability and umbrella.</li>
+<li><b>Stress-test simulator:</b> deterministic payment logic from the user's own terms against published average and illustrative losses.</li>
+<li><b>Market-access engine:</b> non-renewal signals (roof age, weather, wildfire, past non-renewal), state residual-market guidance.</li>
+<li><b>Explainability and audit:</b> a decision receipt for every result, with each factor marked sourced or assumed, data dates and model version.</li>
+</ol>
+<h3>Governance and validation</h3>
+<ul>
+<li>Real-quote validation with the plan's thresholds: at least 80% of quotes inside the range and median error of 15% or less, by state, before any state's home results lose their "rough" label. The checker includes a Test tab that runs this on a CSV of quotes.</li>
+<li>Independent review of any third-party hazard score before it influences a recommendation; decision-level accountability for the "switch" and "add cover" recommendations.</li>
+<li>Bias screen across demographic groups and avoidance of ZIP-code proxies; state rules for credit.</li>
+</ul>
+<h3>Compliance</h3>
+<p>Recommending a policy or comparing quotes for compensation can trigger producer licensing in each state. The current design stays advisory, with no buying or binding. Insurance is regulated state by state, and AI-in-insurance guidance is still spreading state by state (NAIC bulletin adopted by about 25 states plus D.C. by mid-2026, according to sources found).</p>
+<h3>Phased roadmap</h3>
+<div class="tw" tabindex="0" role="region" aria-label="Table 7 (scrolls sideways if needed)"><table>
+<thead><tr><th>Phase</th><th>Work</th><th>Gate</th></tr></thead>
+<tbody>
+<tr><td>0 (now)</td><td>Educational tool with published benchmarks and the stress test</td><td>Real quotes for two or three pilot states</td></tr>
+<tr><td>1</td><td>Address helper live-checked; rebuild estimates from a licensed source; validation against 50 to 100 quotes per state</td><td>80% of quotes inside range, 15% median error</td></tr>
+<tr><td>2</td><td>Property-level hazard scores under license; wind-mitigation and roof data; quote integrations</td><td>Counsel sign-off before any purchase path</td></tr>
+<tr><td>3</td><td>Renewal watch tied to real renewal data; claim-readiness content; peer benchmark from a quote database</td><td>Consent and retention controls</td></tr>
+</tbody></table></div>
+<p class="small">Durations depend on team size, data contracts and licensing; none are estimated here.</p>
+<h3>Design principles taken from the consultancy benchmark</h3>
+<ul>
+<li>Govern decisions, not just models (PwC): every recommendation carries a receipt.</li>
+<li>Transparent models (KPMG, Oliver Wyman): assumptions and data dates are shown to the user.</li>
+<li>Independent model review (Milliman): third-party scores get validated before use.</li>
+<li>Geospatial enrichment (Cognizant): flood and hazard lookups by address.</li>
+<li>Protection-gap framing (McKinsey): the product measures gaps, not only price.</li>
+<li>Consumer-side independence: none of these firms serves consumers directly, so an independent, non-lead-selling checker is the differentiator.</li>
+</ul>
+</section>
+
+<section id="built">
+<h2>11. What is built in the checker</h2>
+<div class="tw" tabindex="0" role="region" aria-label="Table 8 (scrolls sideways if needed)"><table>
+<thead><tr><th>Feature</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>Five-step home flow: home, risks (with optional address lookup), policy, storm and roof details, discounts</td><td class="ok">Built and tested</td></tr>
+<tr><td>Price estimate from published state curves with sourced deductible, liability, claims and credit effects; wider range and lower confidence than car</td><td class="ok">Built and tested; not validated against real quotes</td></tr>
+<tr><td>Insurance-to-value table (three rebuild estimates, shortfalls, coinsurance note)</td><td class="ok">Built and tested</td></tr>
+<tr><td>Storm deductible calculator (hurricane, wind and hail) and roof exposure (replacement cost vs. actual cash value)</td><td class="ok">Built and tested</td></tr>
+<tr><td>Policy stress test (11 situations)</td><td class="ok">Built and tested</td></tr>
+<tr><td>Endorsements and special limits checklist</td><td class="ok">Built and tested</td></tr>
+<tr><td>Market-access risk and insurer-of-last-resort guidance (FL, CA, NC facts; generic elsewhere)</td><td class="ok">Built and tested</td></tr>
+<tr><td>Eight-item protection-gap score: house limit 25%, storm deductible and roof 15%, flood 15%, liability and hazards 10%, endorsements 15%, contents 5%, earthquake 5%, market access 10%</td><td class="ok">Built and tested; weights are our judgment</td></tr>
+<tr><td>Quote comparison with roof payment, storm deductible, ordinance or law and water backup; gaps cap the value score at 75</td><td class="ok">Built and tested</td></tr>
+<tr><td>Decision receipt, renewal check, claim-readiness checklist, agent summary</td><td class="ok">Built and tested</td></tr>
+<tr><td>"Lower your cost without creating a gap": ranked savings options with break-even and a list of what not to cut (added because financially stretched households tend to cut cover or lapse rather than shop)</td><td class="ok">Built and tested</td></tr>
+<tr><td>Trust and fairness: model card, controls register, rules audit, fairness screen, monitoring over time</td><td class="ok">Built and tested; needs your data to run the last two</td></tr>
+<tr><td>Test-with-real-quotes tab: request-sheet builder, per-insurer comparison by profile, per-state correction multipliers, and a range-width suggestion</td><td class="ok">Built and tested on synthetic data; not yet run on real quotes</td></tr>
+<tr><td>Address helper (flood zone, tract hazard ratings)</td><td class="flag">Built; offline tests only; live check pending</td></tr>
+</tbody></table></div>
+<p>Testing: seven browser-simulation suites (1,724 checks) plus the address helper's 13 and the address helper's 13 offline tests all pass. The checks cover every state, edge inputs, the five-step wizard, rebuild classification, storm deductible arithmetic, roof depreciation and payment types, each stress-test situation, market-risk levels, pricing factors and credit bans, quote comparison with the new fields, and the summary. No real browser was available, so layout, printing and the clipboard button were not tested on screen.</p>
+</section>
+
+<section id="open">
+<h2>12. Open items and recommended next steps</h2>
+<ol>
+<li><b>Get real home quotes.</b> Collect 50 to 100 identical-coverage quotes per pilot state and run them through the Test tab. This is the only way to know whether the home range and levels are right. The <a href="home-quote-collection-kit.html">quote collection kit</a> is ready: request sheets for Texas, Florida and California (60 profiles each, price column blank), the standard coverage to request, the collection protocol, and decision rules. The quotes themselves have not been collected: they need a licensed agent or the insurers' own systems.</li>
+<li><b>Choose a home-price source.</b> The two published sources disagree by 25% to 60% in the states compared. License one dataset (or several) and document the choice.</li>
+<li><b>License replacement-cost and hazard data.</b> A contractor-grade rebuild estimator and property-level scores would replace the three-estimate range and the area-level ratings.</li>
+<li><b>Live-check the address helper</b> and confirm the hurricane, wildfire and flood rating field names.</li>
+<li><b>Verify state rules</b> the tool summarizes from secondary sources (Florida roof and notice rules, hurricane deductible triggers by state) against the statutes or insurance department pages.</li>
+<li><b>Licensing advice</b> before any purchase path, and a decision on whether the product stays advisory.</li>
+<li><b>More browser testing:</b> Chromium (desktop and phone sizes) was tested for layout, printing and the copy button, and one phone-layout bug was fixed; Safari, Firefox and real phones were not tested.</li>
+</ol>
+</section>
+
+<section id="sources">
+<h2>Sources</h2>
+<p class="small">From search results reviewed on September 29, 2026. Where full pages were not opened, figures should be treated as approximate. Roofing contractors, agencies and consumer-finance sites are commercial and are flagged where used.</p>
+<ul>
+<li><a href="https://www.insurance.com/home-and-renters-insurance/home-insurance-basics/average-homeowners-insurance-rates-by-state">Insurance.com: average homeowners insurance rates by state (September 15, 2026)</a> &middot; <a href="https://www.insurancequotes.com/home/rates-by-state">InsuranceQuotes</a> &middot; <a href="https://www.compare.com/homeowners-insurance/average-cost-home-insurance">Compare.com</a></li>
+<li>Rebuild cost: <a href="https://www.insurance.com/home-and-renters-insurance/coverage/how-to-calculate-home-replacement-cost-value">Insurance.com (NAHB $162)</a> &middot; <a href="https://www.nerdwallet.com/insurance/homeowners/news/rebuilding-costs">NerdWallet (First Street data; University of Colorado study)</a> &middot; <a href="https://www.insure.com/home-insurance/home-replacement-cost-calculator/">Insure.com survey</a></li>
+<li>Roof: <a href="https://www.cedur.com/will-insurance-cover-20-year-old-roof/">Cedur</a> &middot; <a href="https://roofvista.com/resources/guides/roof-insurance-state-guide">RoofVista</a> &middot; <a href="https://roofing-it.com/florida-roof-age-rules-by-insurer">Florida roof rules (roofing contractor)</a> &middot; <a href="https://winik.io/15-year-roof-insurance-rule/">Winik</a></li>
+<li>Claims and credit: <a href="https://www.moneygeek.com/insurance/homeowners/home-insurance-costs-after-a-claim/">MoneyGeek: costs after a claim</a> &middot; <a href="https://www.experian.com/blogs/ask-experian/does-filing-home-insurance-claim-raise-rates/">Experian (Insurance.com claim study)</a> &middot; <a href="https://www.bankrate.com/insurance/homeowners-insurance/does-credit-score-affect-home-insurance/">Bankrate: credit and home insurance</a> &middot; <a href="https://uphelp.org/poor-credit-history-can-affect-homeowners-insurance-rates/">UPHelp summary of InsuranceQuotes credit study</a></li>
+<li>Storm deductibles: <a href="https://www.progressive.com/answers/what-is-a-hurricane-deductible/">Progressive</a> &middot; <a href="https://policygenius.com/homeowners-insurance/hurricane-deductible-guide">Policygenius</a> &middot; <a href="https://www.ncdoi.gov/consumers/homeowners-insurance/windstorm-and-hail">North Carolina Department of Insurance</a> &middot; <a href="https://www.propertyinsurancecoveragelaw.com/blog/florida-hurricane-deductibles">Florida hurricane deductibles</a></li>
+<li>Flood: <a href="https://www.davie-fl.gov/762/Flood-Insurance">Town of Davie, FL (NFIP)</a> &middot; <a href="https://lafayettela.gov/DP/FloodplainManagement/FloodInsurance">Lafayette, LA (NFIP)</a> &middot; <a href="https://www.somerswi.gov/?p=2338">Village of Somers, WI</a> &middot; <a href="https://msc.fema.gov/portal/home">FEMA Flood Map Service Center</a></li>
+<li>Market: <a href="https://www.insurancebusinessmag.com/us/news/property/you-cannot-depopulate-the-fair-plan-if-its-cheaper-563757.aspx">California FAIR Plan hearing (Insurance Business)</a> &middot; <a href="https://falconwest.com/california-homeowners-insurance-2026-market-shift/">Falcon West (broker)</a> &middot; <a href="https://risk.lexisnexis.com/about-us/press-room/press-release/20260722-home-trends-report">LexisNexis 2026 Home Trends Report</a> &middot; <a href="https://beinsure.com/us-home-insurance-claim-severity-hit-record-high/">Beinsure summary</a></li>
+<li>Claim sizes: <a href="https://trust.cnb.bank/files/flipbooks/financial-management/10">Insurance Information Institute figures (flipbook)</a> &middot; <a href="https://pauldavis.com/blog/what-are-the-odds-your-home-will-suffer-property-damage">Paul Davis</a></li>
+<li>Policy structure: <a href="https://citizensfla.com/documents/20702/5812839/Homeowners+Choice+-+HO3+COVERAGE+COMPARISON.pdf">Citizens HO-3 coverage comparison (Homeowners Choice)</a> &middot; <a href="https://citizensfla.com/documents/20702/21608766/Vyrd+-+HO3+COVERAGE+COMPARISON.pdf">Vyrd</a> &middot; <a href="https://www.sureapp.com/md/products/homeowners">Sure (endorsement examples)</a> &middot; <a href="https://pti.agency/ho3/">PTI HO-3 program</a></li>
+<li>Address helper: <a href="https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28">FEMA flood hazard zones layer</a> &middot; <a href="https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Census_Tracts/FeatureServer/0">FEMA National Risk Index tracts</a> &middot; <a href="https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.pdf">Census Geocoder</a></li>
+</ul>
+</section>
+
+<footer><p>This document describes a learning model, not insurance advice or a quote. Consult a licensed agent or your state insurance department before changing coverage.</p></footer>
+</main>
+</body>
+</html>

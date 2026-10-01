@@ -1,0 +1,7 @@
+[run]
+source = insurance_risk_service
+
+[report]
+show_missing = True
+exclude_lines =
+    pragma: no cover
