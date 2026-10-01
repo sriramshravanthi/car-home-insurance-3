@@ -1,3 +1,5 @@
+![Coverage Check — insurance advice you can actually verify](.github/readme-banner.svg)
+
 # Coverage Check — Car & Home Insurance
 
 An educational USA car/home insurance platform: a static, client-side "Coverage Check"

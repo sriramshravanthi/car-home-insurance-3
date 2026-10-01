@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="Coverage Check — insurance advice you can actually verify">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1E3D"/>
+      <stop offset="1" stop-color="#061225"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- brand mark -->
+  <rect x="64" y="56" width="46" height="46" rx="12" fill="#1D4ED8"/>
+  <text x="87" y="86" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">CC</text>
+  <text x="124" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#ffffff">Coverage Check</text>
+
+  <!-- headline -->
+  <text x="64" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#ffffff">
+    Insurance advice you can
+  </text>
+  <text x="64" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700">
+    <tspan font-style="italic" fill="#5B8DF0">actually</tspan>
+    <tspan fill="#ffffff"> verify.</tspan>
+  </text>
+
+  <!-- eyebrow line -->
+  <text x="66" y="252" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="15" letter-spacing="1.5" fill="#8FB2FF">
+    CAR &amp; HOME INSURANCE &#183; PUBLISHED-DATA BENCHMARKS &#183; NO SALES PITCH
+  </text>
+</svg>
